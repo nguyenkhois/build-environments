@@ -5,3 +5,5 @@ Using for MacOS
 * Webpack Dev Server
 * Babel
 * Auto refresh
+
+Created by [Elias](https://github.com/webeli)
