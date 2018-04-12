@@ -4,12 +4,8 @@
   "description": "Webpack exercise for myself",
   "private": true,
   "scripts": {
-    "test": "echo \"Here is my webpack exercise\"",
-    "styles": "lessc ./src/styles.less ./dist/styles.css",
-    "bundle": "webpack",
-    "start": "webpack-dev-server",
-    "copyindex": "cp ./src/index.html ./dist/index.html",
-    "build": "npm run bundle && npm run styles && npm run copyindex"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server"
   },
   "keywords": [
     "webpack"
