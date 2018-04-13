@@ -1,5 +1,4 @@
 # Simple React build enviroment
-Using for Windows
 * React
 * Webpack
 * Webpack Dev Server
