@@ -1,14 +1,16 @@
 {
-  "name": "advjs-webpack",
+  "name": "advjs-reactbuildenv",
   "version": "1.0.0",
-  "description": "Webpack exercise for myself",
+  "description": "The simple React build environment",
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server"
   },
   "keywords": [
-    "webpack"
+    "react",
+    "webpack",
+    "buildenv"
   ],
   "author": "KhoiLe",
   "license": "ISC",
