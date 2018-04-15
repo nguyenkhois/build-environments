@@ -11,7 +11,7 @@ Tested on:
 * Debian 9
 
 ## Using
-* Localhost started at: `htpp://localhost:9000`
+* Local web server started at: `htpp://localhost:9000`
 * Commands:
     * `npm run start`: start Webpack Dev Server
     * `npm run build`: compile your app with production mode in Webpack
