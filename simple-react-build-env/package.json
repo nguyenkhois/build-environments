@@ -12,7 +12,7 @@
     "webpack",
     "buildenv"
   ],
-  "author": "KhoiLe",
+  "author": "Khoi Le",
   "license": "ISC",
   "dependencies": {
     "react": "^16.3.1",
