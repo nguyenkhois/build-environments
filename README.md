@@ -6,3 +6,4 @@ You should be carefully before you want update these packages which founded in p
 |Simple-React-Webpack-1|No|Yes|No|
 |Simple-React-Webpack-2|No|Yes|No|
 |simple-react-build-env|Yes|Yes|Yes|
+|simple-react-css-build-env|Yes|Yes|Yes|
