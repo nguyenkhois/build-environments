@@ -1,5 +1,5 @@
 # Build environments
-You should be carefully before you want update these packages which found in package.json to newer versions.
+You should be carefully before you want update these packages which founded in package.json to newer versions.
 
 |Build|Windows|MacOS|Debian|
 |---|:---:|:---:|:---:|
