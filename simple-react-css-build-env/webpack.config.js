@@ -2,6 +2,7 @@ const path = require('path');
 const WebpackNotifierPlugin = require("webpack-notifier");
 
 module.exports = {
+    devtool: 'source-map',
     mode: 'development', // whether we're building for dev or prod
     entry: './src/index.js', // which file to begin with, 
     output: {
