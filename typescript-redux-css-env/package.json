@@ -1,0 +1,33 @@
+{
+  "name": "advjs-reduxtypescripttodolist",
+  "version": "1.0.0",
+  "description": "The simple Redux-TypeScript web application",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "copycss": "cp ./src/styles.css ./dist/styles.css",
+    "build": "webpack --mode production",
+    "build:all": "npm run build && npm run copycss"
+  },
+  "keywords": [
+    "redux",
+    "typescript",
+    "todo",
+    "webpack",
+    "buildenv"
+  ],
+  "author": "Khoi Le",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "redux": "^4.0.0",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-notifier": "^1.6.0"
+  }
+}
