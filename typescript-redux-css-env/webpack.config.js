@@ -3,8 +3,8 @@ const webpack = require('webpack');
 const WebpackNotifierPlugin = require("webpack-notifier");
 
 module.exports = {
-    devtool: 'source-map',
-    mode: 'production', // whether we're building for dev or prod
+    devtool: 'inline-source-map',
+    mode: 'development', // whether we're building for dev or prod
     entry: './src/index.ts',// which file to begin with, 
     output: {
         path: path.resolve(__dirname, "./dist"), // what folder to put bundle in
