@@ -1,5 +1,5 @@
 {
-  "name": "advjs-reactbuildenv",
+  "name": "simple-react-build-env",
   "version": "1.0.0",
   "description": "The simple React build environment",
   "private": true,
