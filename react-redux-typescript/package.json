@@ -4,10 +4,8 @@
   "description": "The simple React-Redux-TypeScript build environment",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server",
-    "copycss": "cp ./src/styles.css ./dist/styles.css",
-    "build": "webpack --mode production",
-    "build:all": "npm run build && npm run copycss"
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "keywords": [
     "react",
@@ -36,6 +34,7 @@
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.3",
     "webpack-notifier": "^1.6.0"
   }
 }

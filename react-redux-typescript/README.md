@@ -10,6 +10,14 @@
 * Auto refresh
 * Your own styles in file `./styles.css`
 
+## Webpack config files
+There are 3 files for Webpack and they are used for different reasons. You can see more here on [Webpack guide](https://webpack.js.org/guides/production/).
+* `webpack.common.js`: common configs for webpack
+* `webpack.dev.js`: using for your development
+* `webpack.prod.js`: using for publishing your app
+
+You can view detail in this file `package.json`.
+
 Tested on:
 * Windows 10 (version 1803)
 * MacOS High Sierra (version 10.13)
@@ -20,4 +28,3 @@ Tested on:
 * Commands:
     * `npm run start`: start Webpack Dev Server
     * `npm run build`: compile your app with production mode in Webpack
-    * `npm run build:all`: publish your app into folder `/dist` with production mode in Webpack
