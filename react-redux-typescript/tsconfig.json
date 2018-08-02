@@ -1,13 +1,15 @@
 {
     "compilerOptions": {
-        "module": "amd",
+        "outDir": "./dist/",
+        "module": "commonjs",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
         "sourceMap": true,
         "moduleResolution": "node",
         "allowJs": true,
-        "target": "es5"
+        "target": "es5",
+        "jsx": "react"
     },
     "include": [
         "src/**/*"

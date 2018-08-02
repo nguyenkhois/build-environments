@@ -1,7 +1,7 @@
 # React-Redux-TypeScript build enviroment
 * React
 * Redux
-* TypeScript version 3.0.0-rc
+* TypeScript version 3.0
 * Webpack
 * Webpack Dev Server
 * Babel
@@ -9,6 +9,14 @@
 * [Style Loader](https://github.com/webpack-contrib/style-loader)
 * Auto refresh
 * Your own styles in file `./styles.css`
+
+## TypeScript
+
+You may want to know how you can using TypeScript in a React project with [TypeScript guide](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) here.
+
+Read more about what's new in TypeScript version 3.0 here:
+* [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html)
+* [What's new](https://blogs.msdn.microsoft.com/typescript/2018/07/30/announcing-typescript-3-0/)
 
 ## Webpack config files
 There are 3 files for Webpack and they are used for different reasons. You can see more here on [Webpack guide](https://webpack.js.org/guides/production/).

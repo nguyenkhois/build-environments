@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Your app name</title>
-</head>
-<body>
-    <div id="app"></div>
-    <script src="bundle.js"></script>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hello React and TypeScript!</title>
+        <meta http-equiv="Content-Security-Policy"
+        content="default-src * 'unsafe-inline' 'unsafe-eval'; 
+                script-src * 'unsafe-inline' 'unsafe-eval' 'self'; 
+                connect-src * 'unsafe-inline'; 
+                img-src * data: blob: 'unsafe-inline'; 
+                frame-src *; 
+                style-src * 'unsafe-inline';">
+        <base href="/">
+    </head>
+    <body>
+        <div id="root"></div>
+
+        <!-- Dependencies -->
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+        <!-- Main -->
+        <script src="./bundle.js"></script>
+    </body>
 </html>
