@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-typescript",
+  "name": "react-javascript",
   "version": "1.0.0",
-  "description": "The simple React-Redux-TypeScript build environment",
+  "description": "The React-JavaScript build environment",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
@@ -9,32 +9,24 @@
   },
   "keywords": [
     "react",
-    "redux",
-    "typescript",
-    "css",
+    "javascript",
     "webpack",
     "buildenv"
   ],
   "author": "Khoi Le",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^16.4.7",
-    "@types/react-dom": "^16.0.6",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "redux": "^4.0.0"
+    "react-dom": "^16.4.2"
   },
   "devDependencies": {
-    "awesome-typescript-loader": "^5.2.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "css-loader": "^1.0.0",
-    "source-map-loader": "^0.2.3",
     "style-loader": "^0.21.0",
-    "typescript": "^3.0.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5",
