@@ -1,7 +1,6 @@
 # React-Redux-TypeScript build enviroment
 * React
-* Redux
-* TypeScript version 3.0
+* TypeScript
 * Webpack
 * Webpack Dev Server
 * Babel
