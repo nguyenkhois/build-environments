@@ -2,7 +2,7 @@ const path = require('path');
 const WebpackNotifierPlugin = require("webpack-notifier");
 
 module.exports = {
-    entry: './src/index.jsx',// which file to begin with, 
+    entry: './src/index.js',// which file to begin with, 
     output: {
         path: path.resolve(__dirname, "./dist"), // what folder to put bundle in
         filename: 'bundle.js' // what name to use for bundle

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class Hello extends Component{
+export class Hello extends Component {
     //Do stuff
     
     //Render
