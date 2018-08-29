@@ -8,8 +8,8 @@ You should be carefully before you want update these packages which founded in p
 |**Others**|||||
 |macos|No|Yes|No|Using for testing purpose|
 |react-flow|Yes|Yes|Yes|Using Flow for type checking|
-|react-typescript|Yes|Yes|Yes|Using TypeScript with separate Webpack config files for different reasons|
-|react-js|Yes|Yes|Yes|Using pure JavaScript with separate  Webpack config files for different reasons|
+|react-typescript|Yes|Yes|Yes|Using TypeScript|
+|react-js|Yes|Yes|Yes|Using pure JavaScript|
 |simple-react|Yes|Yes|Yes|Without CSS|
 |simple-react-css|Yes|Yes|Yes||
 |typescript-redux|Yes|Yes|Yes||
