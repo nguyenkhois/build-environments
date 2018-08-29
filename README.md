@@ -3,7 +3,7 @@ You should be carefully before you want update these packages which founded in p
 
 |Build|Windows|MacOS|Debian|Notes|
 |---|:---:|:---:|:---:|:---|
-|react-babel-6|Yes|Yes|Yes|Using Babel Loader 7 and custom configs to Webpack, code compiled to separate file extensions (*.html, *.css, *.js)|
+|react-babel-6|Yes|Yes|Yes|Using Babel Loader 7|
 |react-babel-7|Yes|Yes|Yes|Using Babel Loader 8 [without babel-preset-stage-x](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets)|
 |**Others**|||||
 |macos|No|Yes|No|Using for testing purpose|
