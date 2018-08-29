@@ -7,7 +7,7 @@ export class Hello extends Component {
     render(){
         return(
             <div className="welcome">
-                Welcome from React and Pure JavaScript! Babel 8
+                Welcome to React and Pure JavaScript! Babel 6.
             </div>
         );
     }
