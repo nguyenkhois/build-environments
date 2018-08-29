@@ -5,7 +5,7 @@
 * [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)
 * [Webpack](https://webpack.js.org/concepts/)
 * [Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)
-* Using Babel 8 [without babel-preset-stage-x](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets)
+* Using Babel Loader 8 [without babel-preset-stage-x](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets)
 * [CSS Loader](https://github.com/webpack-contrib/css-loader)
 * [Style Loader](https://github.com/webpack-contrib/style-loader)
 * Auto refresh whenever you make a change in your code
