@@ -1,4 +1,4 @@
-# React-Redux-TypeScript build enviroment
+# React-TypeScript build enviroment
 * React
 * TypeScript
 * Webpack

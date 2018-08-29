@@ -1,4 +1,4 @@
-# React-CSS build enviroment
+# React-JS build enviroment
 * React
 * Webpack
 * Webpack Dev Server
