@@ -1,6 +1,8 @@
 # Build environments
 You should be carefully before you want update these packages which founded in package.json to newer versions.
 
+![How to use](./assets/code-template-generator.gif)
+
 |Build|Windows|MacOS|Debian|Notes|
 |---|:---:|:---:|:---:|:---|
 |react-babel-6|Yes|Yes|Yes|Using Babel Loader 7|
