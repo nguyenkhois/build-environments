@@ -5,7 +5,7 @@ You should be carefully before you want update these packages which founded in p
 |---|:---:|:---:|:---:|:---|
 |react-babel-6|Yes|Yes|Yes|Using Babel Loader 7|
 |react-babel-7|Yes|Yes|Yes|Using Babel Loader 8 [without babel-preset-stage-x](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets)|
-|react-typescript|Yes|Yes|Yes|[Using TypeScript](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) (without Babel)|
+|react-typescript-3|Yes|Yes|Yes|[Using TypeScript 3](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) (without Babel)|
 |**Others**|||||
 |macos|No|Yes|No|Using for testing purpose|
 |react-flow|Yes|Yes|Yes|Using Flow for type checking|
