@@ -1,4 +1,4 @@
-# Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.0.9-blue.svg)](https://www.npmjs.com/package/code-template-generator)
+# Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.0.10-blue.svg)](https://www.npmjs.com/package/code-template-generator)
 
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
