@@ -6,7 +6,7 @@ You should be carefully before you want update these packages which founded in p
 
 ![How to use](./assets/code-template-generator.gif)
 
-|Build environment|Support|Code splitting|Main dependencies|
+|Template|Support|Code splitting|Main dependencies|
 |---|:---:|:---:|:---|
 |react-babel-6|JS|No|Babel 6, Babel Loader 7|
 |react-babel-7|JS|No|Babel 7, Babel Loader 8 [without Babel's Stage Presets](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets)|
