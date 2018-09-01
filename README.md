@@ -6,17 +6,17 @@ You should be carefully before you want update these packages which founded in p
 
 ![How to use](./assets/code-template-generator.gif)
 
-|Build environment|Support|Code splitting|Notes|
+|Build environment|Support|Code splitting|Main dependencies|
 |---|:---:|:---:|:---|
-|react-babel-6|JS|No|Using Babel Loader 7|
-|react-babel-7|JS|No|Using Babel Loader 8 [without babel-preset-stage-x](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets)|
-|react-code-splitting|JS|[Yes](https://webpack.js.org/guides/code-splitting/)|Using Babel 7 , Babel Loader 8 and [SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)|
-|react-typescript-3|TS|No|[Using TypeScript 3](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) (without Babel)|
-|**Others**|||||
-|macos|-|-|Using for testing purpose|
+|react-babel-6|JS|No|Babel 6, Babel Loader 7|
+|react-babel-7|JS|No|Babel 7, Babel Loader 8 [without babel-preset-stage-x](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets)|
+|react-code-splitting|JS|[Yes](https://webpack.js.org/guides/code-splitting/)|Babel 7, Babel Loader 8 and [SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)|
+|react-typescript-3|TS|No|[TypeScript 3](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) without Babel|
+|**Others**|||**Notes**|
+|macos|JS|No|Using for testing purpose|
 |react-flow|JS|No|Using Flow for type checking|
-|react-js|JS|No|Using pure JavaScript|
-|simple-react|JS|No|Without CSS|
+|react-js|JS|No||
+|simple-react|JS|No|Without CSS module|
 |simple-react-css|JS|No||
 |typescript-redux|TS|No||
 
