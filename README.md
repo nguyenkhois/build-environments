@@ -13,7 +13,10 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 
 TIP! You should be carefully before you want update these packages which founded in package.json to newer versions.
 
+## Screenshot
 ![How to use](./assets/code-template-generator.gif)
+
+## Details
 
 |Template|Support|Code splitting|Main dependencies|
 |---|:---:|:---:|:---|
