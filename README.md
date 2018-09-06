@@ -1,4 +1,5 @@
 # Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.1.7-blue.svg)](https://www.npmjs.com/package/code-template-generator)
+You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
 ## Features
 * Lightweight and effective code templates.
@@ -8,8 +9,6 @@
     * Splitting your code to smaller files by file types *.html, *.css, *.js -> Performance improvement
     * CSS, JS injected into your HTML template file.
 * Auto refresh whenever you make a change in your code.
-
-You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
 TIP! You should be carefully before you want update these packages which founded in package.json to newer versions.
 
