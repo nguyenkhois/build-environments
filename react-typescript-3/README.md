@@ -3,7 +3,7 @@ This is a part of npm package [code-template-generator](https://www.npmjs.com/pa
 
 |Main packages|Version|Notes|
 |---|:---:|---|
-|[React](https://reactjs.org/)|16.4||
+|[React](https://reactjs.org/)|16.5||
 |[TypeScript](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html)|3.0|[What's new](https://blogs.msdn.microsoft.com/typescript/2018/07/30/announcing-typescript-3-0/)|
 |[Awesome TypeScript loader for webpack](https://github.com/s-panferov/awesome-typescript-loader)|5.2|awesome-typescript-loader|
 |[Webpack](https://webpack.js.org/concepts/)|4.17||

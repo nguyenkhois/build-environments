@@ -3,7 +3,7 @@ This is a part of npm package [code-template-generator](https://www.npmjs.com/pa
 
 |Main packages|Version|Notes|
 |---|:---:|---|
-|[React](https://reactjs.org/)|16.4||
+|[React](https://reactjs.org/)|16.5||
 |Babel|6.26||
 |Babel Loader|7.1||
 |[Webpack](https://webpack.js.org/concepts/)|4.17||
