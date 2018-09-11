@@ -2,6 +2,8 @@ const path = require('path');
 const WebpackNotifierPlugin = require("webpack-notifier");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const WriteFilePlugin = require('write-file-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const customConfigs = require('./webpack.custom'); // Using your own configs
 
@@ -49,6 +51,12 @@ module.exports = {
     plugins: [
         new WebpackNotifierPlugin({ alwaysNotify: true }),
         new HtmlWebpackPlugin({ template: customConfigs.htmlTemplate }),
-        new CleanWebpackPlugin(customConfigs.distDir)
+        new CleanWebpackPlugin(customConfigs.distDir),
+        new WriteFilePlugin({
+            test: /\.(png|jpg|gif|svg)$/i
+        }),
+        new CopyWebpackPlugin([
+                {from:'src/images',to:'images'}
+        ])
     ]
 };

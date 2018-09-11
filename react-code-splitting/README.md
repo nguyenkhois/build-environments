@@ -15,15 +15,23 @@ Other packages
 * [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)
 * [CSS Loader](https://github.com/webpack-contrib/css-loader)
 * [Style Loader](https://github.com/webpack-contrib/style-loader)
+* [write-file-webpack-plugin](https://github.com/gajus/write-file-webpack-plugin)
+* [Copy Webpack Plugin](https://github.com/webpack-contrib/copy-webpack-plugin)
 
 ## Features
-* Your source code are here `./src`:
-   * HTML template `./src/index.html`
-   * Styles in file `./src/styles.css`
-   * Entry point `./src/index.js`
+||Location|
+|---|---|
+|Source code|`./src`|
+|HTML template|`./src/index.html`|
+|Styles|`./src/styles.css`|
+|Entrypoint|`./src/index.js`|
+|Images|`./src/images`|
+|Webpack Dev Server custom config|`./webpack.custom.js`|
+
 * Auto refresh whenever you make a change in your code.
 * Your code compiled into directory `./dist` with three separate file extensions `*.html, *.css, *.js`.
 * Directory `./dist` is deleted and then created automatic every time you run the command `npm run build`.
+* Auto copy directory `./src/images` into `./dist` when you compile your code or during development.
 
 Tested on:
 * Windows 10 (version 1803)
