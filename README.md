@@ -32,3 +32,69 @@ TIP! You should be carefully before you want update these packages which founded
 |simple-react-css|JS|No||
 |typescript-redux|TS|No||
 
+## Tips and tricks
+1. How can I check for outdated, incorrect, and unused dependencies?
+
+Using [npm-check](https://www.npmjs.com/package/npm-check). It's amazing! (^_~)
+
+2. How can I config Webpack Dev Server for React-Router v4?
+
+Add these code to Webpack config files:
+
+webpack.common.js
+````
+output: {
+    ...
+    publicPath: '/'
+    ...
+}
+````
+
+webpack.dev.js
+````
+devServer: {
+    ...
+    historyApiFallback: true
+    ...
+}
+````
+
+3. How can I use async/ await i React?
+
+Add these code to Babel config file (`.babelrc`):
+````
+"presets": [
+        [
+            "@babel/preset-env", 
+            {
+                "targets": 
+                    {
+                        "node": "10"
+                    }
+            }
+        ],
+        ...
+    ]
+````
+
+Example
+
+````
+import React, { Component } from 'react';
+
+class Menu extends Component {
+    async handleClick() {
+        const fetchURL = 'your_url_here';
+        const response = await fetch(fetchURL);
+        await response.json()
+                .then((collection) => {
+                    console.log(collection);
+                });
+        
+    }
+
+    render() {
+        ...
+    }
+}
+````
