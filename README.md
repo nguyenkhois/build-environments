@@ -1,6 +1,15 @@
 # Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.1.12-blue.svg)](https://www.npmjs.com/package/code-template-generator)
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
+## Table of contents
+* [Features](#features)
+* [Screenshot](#screenshot)
+* [Details](#details)
+* [Tips and tricks for these code templates](#tips-and-tricks)
+    * How can I check for outdated, incorrect, and unused dependencies?
+    * How can I config Webpack Dev Server for React-Router v4?
+    * How can I use async/ await i React?
+
 ## Features
 * Lightweight and effective code templates.
 * It's easy to config what you need and install other dependencies to your project.
@@ -41,7 +50,7 @@ __2. How can I config Webpack Dev Server for React-Router v4?__
 
 Add these code to Webpack config files:
 
-webpack.common.js
+_webpack.common.js_
 ````
 output: {
     ...
@@ -50,7 +59,7 @@ output: {
 }
 ````
 
-webpack.dev.js
+_webpack.dev.js_
 ````
 devServer: {
     ...
