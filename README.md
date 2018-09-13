@@ -8,7 +8,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 * [Tips and tricks for these code templates](#tips-and-tricks)
     * How can I check for outdated, incorrect, and unused dependencies?
     * How can I config Webpack Dev Server for React-Router v4?
-    * How can I use async/ await i React?
+    * How can I use async/ await in React?
 
 ## Features
 * Lightweight and effective code templates.
@@ -68,7 +68,7 @@ devServer: {
 }
 ````
 
-__3. How can I use async/ await i React?__
+__3. How can I use async/ await in React?__
 
 Add these code to Babel config file (`.babelrc`):
 ````
