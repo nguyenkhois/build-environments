@@ -33,11 +33,11 @@ TIP! You should be carefully before you want update these packages which founded
 |typescript-redux|TS|No||
 
 ## Tips and tricks
-1. How can I check for outdated, incorrect, and unused dependencies?
+__1. How can I check for outdated, incorrect, and unused dependencies?__
 
 Using [npm-check](https://www.npmjs.com/package/npm-check). It's amazing! (^_~)
 
-2. How can I config Webpack Dev Server for React-Router v4?
+__2. How can I config Webpack Dev Server for React-Router v4?__
 
 Add these code to Webpack config files:
 
@@ -59,7 +59,7 @@ devServer: {
 }
 ````
 
-3. How can I use async/ await i React?
+__3. How can I use async/ await i React?__
 
 Add these code to Babel config file (`.babelrc`):
 ````
