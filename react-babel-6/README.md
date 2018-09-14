@@ -6,7 +6,7 @@ This is a part of npm package [code-template-generator](https://www.npmjs.com/pa
 |[React](https://reactjs.org/)|16.5||
 |Babel|6.26||
 |Babel Loader|7.1||
-|[Webpack](https://webpack.js.org/concepts/)|4.17||
+|[Webpack](https://webpack.js.org/concepts/)|4.19||
 |[Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)|3.1||
 
 Other packages

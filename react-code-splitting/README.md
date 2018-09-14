@@ -6,7 +6,7 @@ This is a part of npm package [code-template-generator](https://www.npmjs.com/pa
 |[React](https://reactjs.org/)|16.5||
 |[Babel](https://babeljs.io/docs/en)|7.0|[Babel 7 released](https://babeljs.io/blog/2018/08/27/7.0.0) and [removing Babel's stage presets](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets)|
 |[Babel Loader](https://github.com/babel/babel-loader)|8.0||
-|[Webpack](https://webpack.js.org/concepts/)|4.17||
+|[Webpack](https://webpack.js.org/concepts/)|4.19||
 |[Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)|3.1||
 
 Other packages
@@ -29,9 +29,12 @@ Other packages
 |Webpack Dev Server custom config|`./webpack.custom.js`|
 
 * Auto refresh whenever you make a change in your code.
-* Your code compiled into directory `./dist` with three separate file extensions `*.html, *.css, *.js`.
 * Directory `./dist` is deleted and then created automatic every time you run the command `npm run build`.
-* Auto copy directory `./src/images` into `./dist` when you compile your code or during development.
+* CSS, JS files injected automatic into HTML template file `index.html`.
+* Using only for `code-splitting` template:
+    * Code splitting: Your code compiled into directory `./dist` with three separate file extensions `*.html, *.css, *.js`.
+    * Image handling: Auto copy only directory `./src/images` into `./dist` when you compile your code or during development -> Improve performance.
+    * You can use `async`/ `await` for fetching data from API in your code.
 
 Tested on:
 * Windows 10 (version 1803)

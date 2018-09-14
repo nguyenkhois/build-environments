@@ -13,12 +13,13 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 ## Features
 * Lightweight and effective code templates.
 * It's easy to config what you need and install other dependencies to your project.
-* It works automatic whenever your code compiles:
-    * Cleaning distribution directory -> A fresh version for publishing is always ready.
-    * Splitting your code to smaller files by file types *.html, *.css, *.js -> Performance improvement
-    * CSS, JS injected into your HTML template file.
-    * Image handling
 * Auto refresh whenever you make a change in your code.
+* Directory `./dist` is deleted and then created automatic every time you run the command `npm run build`.
+* CSS, JS files injected automatic into the HTML template file `index.html`.
+* Using only for `code-splitting` template:
+    * Code splitting: Your code compiled into directory `./dist` with three separate file extensions `*.html, *.css, *.js`.
+    * Image handling: Auto copy only directory `./src/images` into `./dist` when you compile your code or during development -> Improve performance.
+    * You can use `async`/ `await` for fetching data from API in your code.
 
 TIP! You should be carefully before you want update these packages which founded in package.json to newer versions.
 

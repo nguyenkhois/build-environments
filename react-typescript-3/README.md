@@ -6,7 +6,7 @@ This is a part of npm package [code-template-generator](https://www.npmjs.com/pa
 |[React](https://reactjs.org/)|16.5||
 |[TypeScript](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html)|3.0|[What's new](https://blogs.msdn.microsoft.com/typescript/2018/07/30/announcing-typescript-3-0/)|
 |[Awesome TypeScript loader for webpack](https://github.com/s-panferov/awesome-typescript-loader)|5.2|awesome-typescript-loader|
-|[Webpack](https://webpack.js.org/concepts/)|4.17||
+|[Webpack](https://webpack.js.org/concepts/)|4.19||
 |[Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)|3.1||
 
 Other packages
