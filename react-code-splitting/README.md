@@ -31,7 +31,7 @@ Other packages
 * Auto refresh whenever you make a change in your code.
 * Directory `./dist` is deleted and then created automatic every time you run the command `npm run build`.
 * CSS, JS files injected automatic into HTML template file `index.html`.
-* Using only for `code-splitting` template:
+* Using only for `react-code-splitting` template:
     * Code splitting: Your code compiled into directory `./dist` with three separate file extensions `*.html, *.css, *.js`.
     * Image handling: Auto copy only directory `./src/images` into `./dist` when you compile your code or during development -> Improve performance.
     * You can use `async`/ `await` for fetching data from API in your code.
