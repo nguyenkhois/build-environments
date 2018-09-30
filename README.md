@@ -1,6 +1,11 @@
 # Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.2.0-blue.svg)](https://www.npmjs.com/package/code-template-generator)
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
+The next version `1.3.x` is also available on npm with new features:
+* The user can use both two commands `$ generate` or `$ generate <project-name>`. (It's available also in version `1.2.0` or later)
+* All needed dependencies are installed automatic.
+* `react-code-splitting` is using `babel.config.js` for Babel config.
+
 ## Table of contents
 * [Features](#features)
 * [Screenshot](#screenshot)
