@@ -1,5 +1,5 @@
 # Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.2.1-blue.svg)](https://www.npmjs.com/package/code-template-generator)
-You can download [npm i code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
+You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
 **NEXT**: The next version `1.3.x-next` is also available on npm with these new features:
 * The user can use both two commands `$ generate` or `$ generate <project-name>`. (It's available also from version `1.2.0`)
