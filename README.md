@@ -5,7 +5,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 * The user can use both two commands `$ generate` or `$ generate <project-name>`. (It's available also from version `1.2.0`)
 * All needed dependencies are installed automatic.
 * `react-code-splitting` is using `babel.config.js` for Babel config.
-* Installation `$ npm i -g npm i code-template-generator@next`
+* Installation `$ npm i -g code-template-generator@next`
 
 ## Table of contents
 * [Features](#features)
