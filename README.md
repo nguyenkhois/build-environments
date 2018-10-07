@@ -2,7 +2,6 @@
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
 **NEXT**: The next version `1.3.x-next` is also available on npm with these new features:
-* The user can use both two commands `$ generate` or `$ generate <project-name>`. (It's available also from version `1.2.0`)
 * All needed dependencies are installed automatic.
 * `react-code-splitting` is using `babel.config.js` for Babel config.
 * Installation `$ npm i -g code-template-generator@next`
@@ -17,8 +16,9 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * How can I use async/ await in React?
 
 ## Features
+* The user can use both two commands `$ generate` or `$ generate <project-name>`. (It's available from version `1.2.0`)
 * Lightweight and effective code templates.
-* It's easy to config what you need and install other dependencies to your project.
+* It's easy to config and install other dependencies that you need to your project.
 * Auto refresh whenever you make a change in your code.
 * Directory `./dist` is deleted and then created automatic every time you run the command `npm run build`.
 * CSS, JS files injected automatic into the HTML template file `index.html`.
