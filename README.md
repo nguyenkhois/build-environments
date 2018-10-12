@@ -11,9 +11,9 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 * [Screenshot](#screenshot)
 * [Details](#details)
 * [Tips and tricks for these code templates](#tips-and-tricks)
-    * How can I check for outdated, incorrect, and unused dependencies?
-    * How can I config Webpack Dev Server for React-Router v4?
-    * How can I use async/ await in React?
+    * [How can I check for outdated, incorrect, and unused dependencies?](#1-how-can-i-check-for-outdated-incorrect-and-unused-dependencies)
+    * [How can I config Webpack Dev Server for React-Router v4?](#2-how-can-i-config-webpack-dev-server-for-react-router-v4)
+    * [How can I use async/ await in React?](#3-how-can-i-use-async-await-in-react)
     * How can I work with HTML5 responsive behaviors?
     * How can I know about supported web browser?
 
@@ -117,13 +117,13 @@ class Menu extends Component {
 }
 ````
 
-#### How can I work with HTML5 responsive behaviors?
+#### 4. How can I work with HTML5 responsive behaviors?
 Using this HTML code in your HTML file:
 ````
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 ````
 
-#### How can I passed CORS?
+#### 5. How can I passed CORS?
 This is a little recomendation for `index.html`:
 ````
 <meta http-equiv="Content-Security-Policy"
@@ -135,7 +135,7 @@ This is a little recomendation for `index.html`:
                 style-src * 'unsafe-inline';">
 ````
 
-#### How can I know about supported web browser?
+#### 6. How can I know about supported web browser?
 
 Run `npx browserslist` in project directory to see what browsers was selected by your queries.
 
