@@ -3,8 +3,10 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 
 **NEXT**: The next version `1.3.x-next` is also available on npm with these new features:
 * All needed dependencies are installed automatic.
-* `react-code-splitting` is using `babel.config.js` for Babel config.
-* Installation `$ npm i -g code-template-generator@next`
+* `react-code-splitting-next` is using:
+    * `/babel.config.js` for Babel config.
+    * `/.browserslistrc` for supported web browser config.
+* Installation for the next version: `$ npm i -g code-template-generator@next`
 
 ## Table of contents
 * [Features](#features)
