@@ -125,7 +125,8 @@ Using this HTML code in your HTML file:
 ````
 
 #### 5. How can I passed the CORS?
-This is a little recomendation for `index.html`:
+You may want to view about [Cross-Origin Resource Sharing (CORS)
+](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) on MDN and here is a little recomendation for `index.html`:
 ````
 <meta http-equiv="Content-Security-Policy"
         content="default-src * 'unsafe-inline' 'unsafe-eval'; 
