@@ -52,5 +52,6 @@ Tested on:
 * Local web server started at `htpp://localhost:9000`
 
 ## References
+* [Browserslist](https://github.com/browserslist/browserslist)
 * [Webpack Code Splitting](https://webpack.js.org/guides/code-splitting/)
 * [SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)

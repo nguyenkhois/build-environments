@@ -14,6 +14,8 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * How can I check for outdated, incorrect, and unused dependencies?
     * How can I config Webpack Dev Server for React-Router v4?
     * How can I use async/ await in React?
+    * How can I work with HTML5 responsive behaviors?
+    * How can I know about supported web browser?
 
 ## Features
 * The user can use both two commands `$ generate` or `$ generate <project-name>`. (It's available from version `1.2.0`)
@@ -49,11 +51,11 @@ TIP! You should be carefully before you want update these packages which founded
 |typescript-redux|TS|No||
 
 ## Tips and tricks
-__1. How can I check for outdated, incorrect, and unused dependencies?__
+#### 1. How can I check for outdated, incorrect, and unused dependencies?
 
 Using [npm-check](https://www.npmjs.com/package/npm-check). It's amazing! (^_~)
 
-__2. How can I config Webpack Dev Server for React-Router v4?__
+#### 2. How can I config Webpack Dev Server for React-Router v4?
 
 Add these code to Webpack config files:
 
@@ -75,9 +77,9 @@ devServer: {
 }
 ````
 
-__3. How can I use async/ await in React?__
+#### 3. How can I use async/ await in React?
 
-Add these code to Babel config file (`.babelrc`):
+Add these code to Babel config file (`.babelrc` or `babel.config.js`):
 ````
 "presets": [
         [
@@ -114,3 +116,27 @@ class Menu extends Component {
     }
 }
 ````
+
+#### How can I work with HTML5 responsive behaviors?
+Using this HTML code in your HTML file:
+````
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+````
+
+#### How can I passed CORS?
+This is a little recomendation for `index.html`:
+````
+<meta http-equiv="Content-Security-Policy"
+        content="default-src * 'unsafe-inline' 'unsafe-eval'; 
+                script-src * 'unsafe-inline' 'unsafe-eval' 'self'; 
+                connect-src * 'unsafe-inline'; 
+                img-src * data: blob: 'unsafe-inline'; 
+                frame-src *; 
+                style-src * 'unsafe-inline';">
+````
+
+#### How can I know about supported web browser?
+
+Run `npx browserslist` in project directory to see what browsers was selected by your queries.
+
+You may want to view about [Browserslist here](https://github.com/browserslist/browserslist) and then you can change the default config in this file `/.browserslistrc`.
