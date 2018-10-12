@@ -6,6 +6,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 * `react-code-splitting-next` is using:
     * `/babel.config.js` for Babel config.
     * `/.browserslistrc` for supported web browser config.
+* Run the command: `$ generate <project-name> git` if you want to have the `.gitignore` file in the root of your project directory.
 * Installation for the next version: `$ npm i -g code-template-generator@next`
 
 ## Table of contents
