@@ -5,7 +5,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 * All needed dependencies are installed automatic.
 * `react-code-splitting` is using:
     * `/babel.config.js` for Babel config.
-    * `/.browserslistrc` for supported web browser config.
+* Using `/.browserslistrc` for all these templates.
 * Run the command: `$ generate <project-name> git` if you want to have the `.gitignore` file in the root of your project directory. It's optional.
 * Installation for the latest version: `$ npm i -g code-template-generator`
 
