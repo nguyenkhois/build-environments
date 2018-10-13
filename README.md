@@ -7,7 +7,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * `/babel.config.js` for Babel config.
     * `/.browserslistrc` for supported web browser config.
 * Run the command: `$ generate <project-name> git` if you want to have the `.gitignore` file in the root of your project directory. It's optional.
-* Installation for the next version: `$ npm i -g code-template-generator`
+* Installation for the latest version: `$ npm i -g code-template-generator`
 
 ## Table of contents
 * [Features](#features)
@@ -46,8 +46,6 @@ TIP! You should be carefully before you want update these packages which founded
 |---|---|---|
 | `<project-name>` | Required | Generate a project by a selected template |
 | `[git]` | Optional | A `.gitignore` file will be created automatically on the root of project directory |
-
-[View more on GitHub](https://github.com/nguyenkhois/build-environments).
 
 ## Example
 ````
