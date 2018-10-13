@@ -24,7 +24,7 @@ Installation for the latest version: `$ npm i -g code-template-generator`
     * [How can I know about supported web browser?](#6-how-can-i-know-about-supported-web-browser)
 
 ## Features
-* The user can use both two commands `$ generate` or `$ generate <project-name>`. (It's available from version `1.2.0`)
+* The user can use the commands `$ generate <project-name>`.
 * Lightweight and effective code templates.
 * It's easy to config and install other dependencies that you need to your project.
 * Auto refresh whenever you make a change in your code.
@@ -34,6 +34,8 @@ Installation for the latest version: `$ npm i -g code-template-generator`
     * Code splitting: Your code compiled into directory `./dist` with three separate file extensions `*.html, *.css, *.js`.
     * Image handling: Auto copy only directory `./src/images` into `./dist` when you compile your code or during development -> Improve performance.
     * You can use `async`/ `await` for fetching data from API in your code.
+* `.gitignore` file handling.
+
 
 TIP! You should be carefully before you want update these packages which founded in package.json to newer versions.
 
