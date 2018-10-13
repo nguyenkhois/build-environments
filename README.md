@@ -3,7 +3,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 
 **NEW**: The new version `1.3.x` is also available on npm with these new features:
 * All needed dependencies are installed automatic.
-* `react-code-splitting-next` is using:
+* `react-code-splitting` is using:
     * `/babel.config.js` for Babel config.
     * `/.browserslistrc` for supported web browser config.
 * Run the command: `$ generate <project-name> git` if you want to have the `.gitignore` file in the root of your project directory. It's optional.
