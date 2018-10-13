@@ -1,17 +1,18 @@
-# Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.2.1-blue.svg)](https://www.npmjs.com/package/code-template-generator)
+# Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.3.8-blue.svg)](https://www.npmjs.com/package/code-template-generator)
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
-**NEXT**: The next version `1.3.x-next` is also available on npm with these new features:
+**NEW**: The new version `1.3.x` is also available on npm with these new features:
 * All needed dependencies are installed automatic.
 * `react-code-splitting-next` is using:
     * `/babel.config.js` for Babel config.
     * `/.browserslistrc` for supported web browser config.
 * Run the command: `$ generate <project-name> git` if you want to have the `.gitignore` file in the root of your project directory. It's optional.
-* Installation for the next version: `$ npm i -g code-template-generator@next`
+* Installation for the next version: `$ npm i -g code-template-generator`
 
 ## Table of contents
 * [Features](#features)
 * [Screenshot](#screenshot)
+* [Using](#using)
 * [Details](#details)
 * [Tips and tricks for these code templates](#tips-and-tricks)
     * [How can I check for outdated, incorrect, and unused dependencies?](#1-how-can-i-check-for-outdated-incorrect-and-unused-dependencies)
@@ -38,21 +39,37 @@ TIP! You should be carefully before you want update these packages which founded
 ## Screenshot
 ![How to use](./assets/code-template-generator.gif)
 
+## Using
+`$ generate <project-name> [git]`
+
+| Argument | Requirement | Description |
+|---|---|---|
+| `<project-name>` | Required | Generate a project by a selected template |
+| `[git]` | Optional | A `.gitignore` file will be created automatically on the root of project directory |
+
+[View more on GitHub](https://github.com/nguyenkhois/build-environments).
+
+## Example
+````
+$ generate react-todo
+$ generate react-counter git
+````
+
 ## Details
 
-|Template|Support|Code splitting|Main dependencies|
-|---|:---:|:---:|:---|
-|react-babel-6|JS|No|Babel 6, Babel Loader 7|
-|react-babel-7|JS|No|Babel 7 [without Babel's Stage Presets](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets), Babel Loader 8|
-|react-code-splitting|JS|[Yes](https://webpack.js.org/guides/code-splitting/)|Babel 7, Babel Loader 8 and [SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)|
-|react-typescript-3|TS|No|[TypeScript 3](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) without Babel|
-|**Others**|||**Notes**|
-|macos|JS|No|Using for testing purpose|
-|react-flow|JS|No|Using Flow for type checking|
-|react-js|JS|No||
-|simple-react|JS|No|Without CSS module|
-|simple-react-css|JS|No||
-|typescript-redux|TS|No||
+|Template|Support|Code splitting|Image handling|.gitignore handling|Main dependencies|
+|---|:---:|:---:|:---:|:---:|:---|
+|react-babel-6|JS|No|No|[Yes](#using)|Babel 6, Babel Loader 7|
+|react-babel-7|JS|No|No|[Yes](#using)|Babel 7 [without Babel's Stage Presets](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets), Babel Loader 8|
+|react-code-splitting|JS|[Yes](https://webpack.js.org/guides/code-splitting/)|Yes|[Yes](#using)|Babel 7, Babel Loader 8 and [SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)|
+|react-typescript-3|TS|No|No|[Yes](#using)|[TypeScript 3](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) without Babel|
+|**Others**|||||**Notes**|
+|macos|JS|No|||Using for testing purpose|
+|react-flow|JS|No|||Using Flow for type checking|
+|react-js|JS|No||||
+|simple-react|JS|No|||Without CSS module|
+|simple-react-css|JS|No||||
+|typescript-redux|TS|No||||
 
 ## Tips and tricks
 #### 1. How can I check for outdated, incorrect, and unused dependencies?
