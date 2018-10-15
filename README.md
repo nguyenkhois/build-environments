@@ -4,8 +4,9 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 ## Table of contents
 * [Features](#features)
 * [Screenshot](#screenshot)
+* [Installation](#installation)
 * [Using](#using)
-* [Details](#details)
+* [Example](#example)
 * [Tips and tricks for these code templates](#tips-and-tricks)
     * [How can I check for outdated, incorrect, and unused dependencies?](#1-how-can-i-check-for-outdated-incorrect-and-unused-dependencies)
     * [How can I config Webpack Dev Server for React-Router v4?](#2-how-can-i-config-webpack-dev-server-for-react-router-v4)
@@ -38,6 +39,9 @@ TIP! You should be carefully before you want update these packages which founded
 
 ## Screenshot
 ![How to use](./assets/code-template-generator.gif)
+
+## Installation
+`$ npm i -g inquirer code-template-generator`
 
 ## Using
 `$ generate <project-name> [git]`
