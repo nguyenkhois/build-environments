@@ -29,9 +29,9 @@ It's easy to config and install other dependencies that you need to your project
 ||react-babel-6|react-babel-7|react-code-splitting|react-typescript-3
 |---|:--:|:--:|:--:|:--:|
 |Programming language|JS|JS|JS|TS|
-|TypeScript|-|-|-|3|
-|Babel core|6|7|7|-|
-|Babel Loader|7|8|8|-|
+|TypeScript|-|-|-|v3|
+|Babel core|v6|v7|v7|-|
+|Babel Loader|v7|v8|v8|-|
 |Config file|.babelrc|.babelrc|babel.config.js|tsconfig.json|
 |All needed dependencies are installed automatic|X|X|X|X|
 |Using `.browserslistrc`|X|X|X|X|
