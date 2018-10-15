@@ -34,11 +34,11 @@ It's easy to config and install other dependencies that you need to your project
 |Babel Loader|v7|v8|v8|-|
 |Config file|.babelrc|.babelrc|babel.config.js|tsconfig.json|
 |All needed dependencies are installed automatic|X|X|X|X|
-|Using `.browserslistrc`|X|X|X|X|
-|`.gitignore` handling|X|X|X|X|
 |Auto refresh whenever you make a change in your code|X|X|X|X|
 |CSS, JS files injected automatic into the HTML template file `index.html`|X|X|X|X|
 |Distribution directory `./dist` is deleted and then created automatic during the app building|X|X|X|X|
+|Using `.browserslistrc`|X|X|X|X|
+|`.gitignore` handling|X|X|X|X|
 |Image handling|-|-|X|-|
 |Code splitting|-|-|X|-|
 |Support async/ await|-|-|X|-|
