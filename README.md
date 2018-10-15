@@ -58,19 +58,21 @@ $ generate react-counter git
 
 ## Details
 
-|Template|Support|Code splitting|Image handling|.gitignore handling|Main dependencies|
-|---|:---:|:---:|:---:|:---:|:---|
-|react-babel-6|JS|No|No|[Yes](#using)|Babel 6, Babel Loader 7|
-|react-babel-7|JS|No|No|[Yes](#using)|Babel 7 [without Babel's Stage Presets](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets), Babel Loader 8|
-|react-code-splitting|JS|[Yes](https://webpack.js.org/guides/code-splitting/)|Yes|[Yes](#using)|Babel 7, Babel Loader 8 and [SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)|
-|react-typescript-3|TS|No|No|[Yes](#using)|[TypeScript 3](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) without Babel|
-|**Others**|||||**Notes**|
-|macos|JS|No|||Using for testing purpose|
-|react-flow|JS|No|||Using Flow for type checking|
-|react-js|JS|No||||
-|simple-react|JS|No|||Without CSS module|
-|simple-react-css|JS|No||||
-|typescript-redux|TS|No||||
+||react-babel-6|react-babel-7|react-code-splitting|react-typescript-3
+|---|:--:|:--:|:--:|:--:|
+|Language|JS|JS|JS|TS|
+|TypeScript|-|-|-|3|
+|Babel core|6|7|7|-|
+|Babel Loader|7|8|8|-|
+|Config file|.babelrc|.babelrc|babel.config.js|tsconfig.json|
+|All needed dependencies are installed automatic|X|X|X|X|
+|Using `.browserslistrc`|X|X|X|X|
+|`.gitignore` handling|X|X|X|X|
+|CSS, JS files injected automatic into the HTML template file|X|X|X|X|
+|Distribution directory is deleted and then created automatic during the app building|X|X|X|X|
+|Image handling|-|-|X|-|
+|Code splitting|-|-|X|-|
+|Support async/ await|-|-|X|-|
 
 ## Tips and tricks
 #### 1. How can I check for outdated, incorrect, and unused dependencies?
