@@ -1,15 +1,6 @@
 # Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.3.8-blue.svg)](https://www.npmjs.com/package/code-template-generator)
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
-**NEW**: The new version `1.3.x` is also available on npm with these new features:
-* All needed dependencies are installed automatic.
-* `react-code-splitting` is using:
-    * `/babel.config.js` for Babel config.
-* Using `/.browserslistrc` for all these templates.
-* Run the command: `$ generate <project-name> git` if you want to have the `.gitignore` file in the root of your project directory. It's optional.
-
-Installation for the latest version: `$ npm i -g code-template-generator`
-
 ## Table of contents
 * [Features](#features)
 * [Screenshot](#screenshot)
@@ -42,7 +33,6 @@ It's easy to config and install other dependencies that you need to your project
 |Image handling|-|-|X|-|
 |Code splitting|-|-|X|-|
 |Support async/ await|-|-|X|-|
-
 
 TIP! You should be carefully before you want update these packages which founded in package.json to newer versions.
 
