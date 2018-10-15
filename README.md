@@ -24,17 +24,24 @@ Installation for the latest version: `$ npm i -g code-template-generator`
     * [How can I know about supported web browser?](#6-how-can-i-know-about-supported-web-browser)
 
 ## Features
-* The user can use the commands `$ generate <project-name>`.
-* Lightweight and effective code templates.
-* It's easy to config and install other dependencies that you need to your project.
-* Auto refresh whenever you make a change in your code.
-* Directory `./dist` is deleted and then created automatic every time you run the command `npm run build`.
-* CSS, JS files injected automatic into the HTML template file `index.html`.
-* Using only for `react-code-splitting` template:
-    * Code splitting: Your code compiled into directory `./dist` with three separate file extensions `*.html, *.css, *.js`.
-    * Image handling: Auto copy only directory `./src/images` into `./dist` when you compile your code or during development -> Improve performance.
-    * You can use `async`/ `await` for fetching data from API in your code.
-* `.gitignore` file handling.
+It's easy to config and install other dependencies that you need to your project.
+
+||react-babel-6|react-babel-7|react-code-splitting|react-typescript-3
+|---|:--:|:--:|:--:|:--:|
+|Programming language|JS|JS|JS|TS|
+|TypeScript|-|-|-|3|
+|Babel core|6|7|7|-|
+|Babel Loader|7|8|8|-|
+|Config file|.babelrc|.babelrc|babel.config.js|tsconfig.json|
+|All needed dependencies are installed automatic|X|X|X|X|
+|Using `.browserslistrc`|X|X|X|X|
+|`.gitignore` handling|X|X|X|X|
+|Auto refresh whenever you make a change in your code|X|X|X|X|
+|CSS, JS files injected automatic into the HTML template file `index.html`|X|X|X|X|
+|Distribution directory `./dist` is deleted and then created automatic during the app building|X|X|X|X|
+|Image handling|-|-|X|-|
+|Code splitting|-|-|X|-|
+|Support async/ await|-|-|X|-|
 
 
 TIP! You should be carefully before you want update these packages which founded in package.json to newer versions.
@@ -55,25 +62,6 @@ TIP! You should be carefully before you want update these packages which founded
 $ generate react-todo
 $ generate react-counter git
 ````
-
-## Details
-
-||react-babel-6|react-babel-7|react-code-splitting|react-typescript-3
-|---|:--:|:--:|:--:|:--:|
-|Programming language|JS|JS|JS|TS|
-|TypeScript|-|-|-|3|
-|Babel core|6|7|7|-|
-|Babel Loader|7|8|8|-|
-|Config file|.babelrc|.babelrc|babel.config.js|tsconfig.json|
-|All needed dependencies are installed automatic|X|X|X|X|
-|Using `.browserslistrc`|X|X|X|X|
-|`.gitignore` handling|X|X|X|X|
-|Auto refresh whenever you make a change in your code|X|X|X|X|
-|CSS, JS files injected automatic into the HTML template file `index.html`|X|X|X|X|
-|Distribution directory `./dist` is deleted and then created automatic during the app building|X|X|X|X|
-|Image handling|-|-|X|-|
-|Code splitting|-|-|X|-|
-|Support async/ await|-|-|X|-|
 
 ## Tips and tricks
 #### 1. How can I check for outdated, incorrect, and unused dependencies?
