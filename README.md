@@ -44,17 +44,21 @@ TIP! You should be carefully before you want update these packages which founded
 `$ npm i -g inquirer code-template-generator`
 
 ## Using
-`$ generate <project-name> [git]`
+`$ generate <project-name> [option]`
 
 | Argument | Requirement | Description |
 |---|---|---|
 | `<project-name>` | Required | Generate a project by a selected template |
-| `[git]` | Optional | A `.gitignore` file will be created automatically on the root of project directory |
+| `git` | Optional | A `.gitignore` file will be created automatically on the root of project directory |
+|`-v`|Option|View the installed version|
+|`-help`|Option|View the help information|
 
 ## Example
 ````
 $ generate react-todo
 $ generate react-counter git
+$ generate -v
+$ generate -help
 ````
 
 ## Tips and tricks
