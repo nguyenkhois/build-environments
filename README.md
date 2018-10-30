@@ -16,8 +16,15 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * [How can I know about supported web browser?](#6-how-can-i-know-about-supported-web-browser)
 
 ## Features
-It's easy to config and install other dependencies that you need to your project.
+* It's simple to config and install the dependencies you need.
+* Supported:
+    * Code splitting.
+    * Image handling.
+    * CSS, JS code injected into HTML template automatic.
+    * .gitignore handling.
+* You don't need to care about the distribution (publish) directory.
 
+### Detail information
 ||react-babel-6|react-babel-7|react-code-splitting|react-typescript-3
 |---|:--:|:--:|:--:|:--:|
 |Programming language|JS|JS|JS|TS|
@@ -41,7 +48,11 @@ TIP! You should be carefully before you want update these packages which founded
 ![How to use](./assets/code-template-generator.gif)
 
 ## Installation
-`$ npm i -g inquirer code-template-generator`
+Installed [Inquirer.js](https://www.npmjs.com/package/inquirer) is requirement before the code-template-generator installation:
+* `$ npm i -g inquirer`
+
+When you have already installed Inquirer.js:
+* `$ npm i -g code-template-generator`
 
 ## Using
 `$ generate <project-name> [option]`
