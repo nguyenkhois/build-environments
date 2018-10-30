@@ -20,7 +20,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 * Supported:
     * Code splitting.
     * Image handling.
-    * CSS, JS code injected into HTML template automatic.
+    * CSS, JS code injected automatic into HTML template.
     * .gitignore handling.
 * You don't need to care about the distribution (publish) directory.
 
