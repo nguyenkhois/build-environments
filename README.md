@@ -24,7 +24,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * .gitignore handling.
 * You don't need to care about the distribution (publish) directory.
 
-### Detail information
+#### Detail information
 ||react-babel-6|react-babel-7|react-code-splitting|react-typescript-3
 |---|:--:|:--:|:--:|:--:|
 |Programming language|JS|JS|JS|TS|
