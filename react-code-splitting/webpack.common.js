@@ -13,29 +13,6 @@ module.exports = {
         path: path.resolve(__dirname, customConfigs.distDir), // what folder to put bundle in
         filename: '[name].[hash].js' // what name to use for bundle
     },
-    optimization: {
-        splitChunks: {
-            chunks: 'all',
-            minSize: 30000,
-            maxSize: 0,
-            minChunks: 1,
-            maxAsyncRequests: 5,
-            maxInitialRequests: 3,
-            automaticNameDelimiter: '~',
-            name: true,
-            cacheGroups: {
-                vendors: {
-                    test: /[\\/]node_modules[\\/]/,
-                    priority: -10
-                },
-                default: {
-                    minChunks: 2,
-                    priority: -20,
-                    reuseExistingChunk: true
-                }
-            }
-        }
-    },
     module: {
         rules: [
             {
