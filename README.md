@@ -178,3 +178,4 @@ You may want to view:
 * [React guide](https://reactjs.org/docs/code-splitting.html).
 * The simple example [here](https://github.com/nguyenkhois/react-code-splitting-example).
 
+[Go to top](#build-environments-)
