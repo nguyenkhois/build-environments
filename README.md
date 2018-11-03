@@ -14,7 +14,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * [How can I work with HTML5 responsive behaviors?](#4-how-can-i-work-with-html5-responsive-behaviors)
     * [How can I passed the CORS?](#5-how-can-i-passed-the-cors)
     * [How can I know about supported web browser?](#6-how-can-i-know-about-supported-web-browser)
-    * [How can I use code splitting i React?]()
+    * [How can I use code splitting in React?](#7-how-can-i-use-code-splitting-i-react)
 
 ## Features
 * It's simple to config and install the dependencies you need.
@@ -173,7 +173,7 @@ You may want to view about [Browserslist here](https://github.com/browserslist/b
 
 [Go to top](#build-environments-)
 
-#### 7. How can I use code splitting i React?
+#### 7. How can I use code splitting in React?
 You may want to view:
 * [React guide](https://reactjs.org/docs/code-splitting.html).
 * The simple example [here](https://github.com/nguyenkhois/react-code-splitting-example).
