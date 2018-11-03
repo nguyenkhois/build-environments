@@ -14,7 +14,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * [How can I work with HTML5 responsive behaviors?](#4-how-can-i-work-with-html5-responsive-behaviors)
     * [How can I passed the CORS?](#5-how-can-i-passed-the-cors)
     * [How can I know about supported web browser?](#6-how-can-i-know-about-supported-web-browser)
-    * [How can I use code splitting in React?](#7-how-can-i-use-code-splitting-i-react)
+    * [How can I use code splitting in React?](#7-how-can-i-use-code-splitting-in-react)
 
 ## Features
 * It's simple to config and install the dependencies you need.
