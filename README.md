@@ -1,4 +1,4 @@
-# Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.3.17-blue.svg)](https://www.npmjs.com/package/code-template-generator)
+# Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.3.18-blue.svg)](https://www.npmjs.com/package/code-template-generator)
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
 ## Table of contents
@@ -14,6 +14,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * [How can I work with HTML5 responsive behaviors?](#4-how-can-i-work-with-html5-responsive-behaviors)
     * [How can I passed the CORS?](#5-how-can-i-passed-the-cors)
     * [How can I know about supported web browser?](#6-how-can-i-know-about-supported-web-browser)
+    * [How can I use code splitting i React?]()
 
 ## Features
 * It's simple to config and install the dependencies you need.
@@ -171,3 +172,9 @@ Run `npx browserslist` in project directory to see what browsers was selected by
 You may want to view about [Browserslist here](https://github.com/browserslist/browserslist) and then you can change the default config in this file `/.browserslistrc`.
 
 [Go to top](#build-environments-)
+
+#### 7. How can I use code splitting i React?
+You may want to view:
+* [React guide](https://reactjs.org/docs/code-splitting.html).
+* The simple example [here](https://github.com/nguyenkhois/react-code-splitting-example).
+
