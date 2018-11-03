@@ -174,7 +174,7 @@ You may want to view about [Browserslist here](https://github.com/browserslist/b
 [Go to top](#build-environments-)
 
 #### 7. How can I use code splitting in React?
-You may want to view:
+You may want to view these things:
 * [React guide](https://reactjs.org/docs/code-splitting.html).
 * The simple example [here](https://github.com/nguyenkhois/react-code-splitting-example).
 
