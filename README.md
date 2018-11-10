@@ -43,6 +43,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 |Image handling|-|-|X|-|
 |Code splitting|-|-|X|-|
 |Support async/ await|-|-|X|-|
+|Hot Module Replacement (HMR) enabled for CSS|-|-|X|-|
 
 TIP! You should be carefully before you want update these packages which founded in package.json to newer versions.
 
