@@ -13,7 +13,8 @@ module.exports = merge(common, {
         port: 9000, // it'll now be at http://localhost:9000
         watchOptions: {
             ignored: /node_modules/
-        }
+        },
+        hot: true
     },
     module: {
         rules: [
@@ -24,6 +25,7 @@ module.exports = merge(common, {
         ]
     },
     plugins: [
-        new webpack.DefinePlugin({'process.env.NODE_ENV':JSON.stringify('development')})
+        new webpack.DefinePlugin({'process.env.NODE_ENV':JSON.stringify('development')}),
+        new webpack.HotModuleReplacementPlugin()
     ]
 });
