@@ -6,6 +6,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 * [Screenshot](#screenshot)
 * [Installation](#installation)
 * [Using](#using)
+* [Work directory](#work-directory)
 * [Example](#example)
 * [Tips and tricks for these code templates](#tips-and-tricks)
     * [How can I check for outdated, incorrect, and unused dependencies?](#1-how-can-i-check-for-outdated-incorrect-and-unused-dependencies)
@@ -17,7 +18,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * [How can I use code splitting in React?](#7-how-can-i-use-code-splitting-in-react)
 
 ## Features
-* It's simple to config and install the dependencies you need.
+* It's simple to config what you want and install the dependencies you need.
 * Supported:
     * Code splitting.
     * Image handling.
@@ -66,6 +67,27 @@ When you have already installed Inquirer.js:
 | `git` | Option | A `.gitignore` file will be created automatically on the root of project directory |
 |`-v`|Option|View the installed version|
 |`-help`|Option|View the help information|
+
+## Work directory
+````
+/
+|--dist
+|--src
+|   |--images
+|   |--index.html
+|   |--index.js
+|   |--...
+|--package.json
+|--...
+````
+Your application is within the `/src` directory:
+* `images` directory is using to store all images are used in your application.
+* `index.html` is the main HTML template.
+* `index.js` is the main entry point for your code.
+
+You don't need to care about the `/dist` directory (distribution/ publish). It is deleted and then created automatic during the application building when you run the command `npm start` or `npm run build`.
+
+[Go to top](#build-environments-)
 
 ## Example
 ````
