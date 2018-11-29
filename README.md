@@ -2,7 +2,7 @@
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
 ## New in version 1.4.x
-* Auto check update and show a message when the new version is available on npmjs.com.
+* Automatic update check and show a message when the new version is available on npmjs.com.
 ![Auto check update](./assets/autocheckupdate.jpg)
 
 ## Table of contents
@@ -30,7 +30,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * .gitignore handling.
     * Hot Module Replacement (HMR) enabled for CSS.
 * You don't need to care about the distribution (publish) directory.
-* Auto check update and show a message when the new version is available on npmjs.com.
+* Automatic update check and show a message when the new version is available on npmjs.com.
 
 #### Detail information
 ||react-babel-6|react-babel-7|react-code-splitting|react-typescript-3
