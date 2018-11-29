@@ -2,7 +2,7 @@
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
 
 ## New in version 1.4.x
-* Auto check update when it is available on npmjs.com.
+* Auto check update when a new version is available on npmjs.com.
 ![Auto check update](./assets/autocheckupdate.jpg)
 
 ## Table of contents
