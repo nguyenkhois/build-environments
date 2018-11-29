@@ -1,5 +1,9 @@
-# Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.3.23-blue.svg)](https://www.npmjs.com/package/code-template-generator)
+# Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.4.2-blue.svg)](https://www.npmjs.com/package/code-template-generator)
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
+
+## New in version 1.4.x
+* Auto check update when it is available on npmjs.com.
+![Auto check update](./assets/autocheckupdate.jpg)
 
 ## Table of contents
 * [Features](#features)
