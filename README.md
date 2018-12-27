@@ -1,6 +1,12 @@
 # Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.4.6-blue.svg)](https://www.npmjs.com/package/code-template-generator)
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npmjs.com.
 
+## For the next generation (version 2)
+- [ ] Restructure code.
+- [ ] Remove Babel 6 template.
+- [ ] New argument to generate a React component file (*.js) via command.
+- [ ] New argument to run `git init` automatic while generate the template.
+
 ## Table of contents
 * [What's new](#whats-new)
 * [Features](#features)
@@ -19,7 +25,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * [How can I use code splitting in React?](#7-how-can-i-use-code-splitting-in-react)
 
 ## What's new
-* From version 1.4.x: code-template-generator will show a message when the new version is available on npmjs.com.
+* From version 1.4.0: code-template-generator will show a message when the new version is available on npmjs.com.
 ![Auto check update](./assets/autocheckupdate.jpg)
 
 ## Features
