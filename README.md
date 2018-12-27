@@ -2,7 +2,7 @@
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npmjs.com.
 
 ## Table of contents
-* [What's new]()
+* [What's new](#whats-new)
 * [Features](#features)
 * [Screenshot](#screenshot)
 * [Installation](#installation)
