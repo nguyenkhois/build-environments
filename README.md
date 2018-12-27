@@ -1,5 +1,5 @@
 # Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.4.6-blue.svg)](https://www.npmjs.com/package/code-template-generator)
-You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npm.
+You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npmjs.com.
 
 ## Table of contents
 * [What's new]()
@@ -18,8 +18,8 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
     * [How can I know about supported web browser?](#6-how-can-i-know-about-supported-web-browser)
     * [How can I use code splitting in React?](#7-how-can-i-use-code-splitting-in-react)
 
-## What's new in version 1.4.x
-* Automatic update check and show a message when the new version is available on npmjs.com.
+## What's new
+* From version 1.4.x: code-template-generator will show a message when the new version is available on npmjs.com.
 ![Auto check update](./assets/autocheckupdate.jpg)
 
 ## Features
