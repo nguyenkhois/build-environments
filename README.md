@@ -1,7 +1,7 @@
 # Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.4.6-blue.svg)](https://www.npmjs.com/package/code-template-generator)
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npmjs.com.
 
-## For the next generation (version 2)
+## For the next generation (version 2) [![Download on npm](https://img.shields.io/badge/npm-v2.0.0.alpha-blue.svg)](https://www.npmjs.com/package/code-template-generator/v/alpha)
 - [x] Restructure code.
 - [ ] Remove Babel 6 template.
 - [x] New argument to generate a React component file (*.js | *.jsx) via command.
