@@ -2,12 +2,26 @@
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npmjs.com.
 
 ## For the next generation (version 2)
-- [ ] Restructure code.
+- [x] Restructure code.
 - [ ] Remove Babel 6 template.
-- [ ] New argument to generate a React component file (*.js) via command.
-- [ ] New argument to run `git init` automatic while generate the template.
+- [x] New argument to generate a React component file (*.js | *.jsx) via command.
+- [x] New argument to generate a React-Redux component file (*.js | *.jsx) via command.
+- [x] New argument to run `git init` automatic while generate the template.
+- Installation: `$ npm i -g code-template-generator@alpha`
 
-## Table of contents
+### Using for version 2
+`$ generate [option] <name>`
+
+| Argument | Requirement | Description |
+|---|---|---|
+| `<name>` | Required |  It is a `<project-name>` or a `<component-name>` that will be generated |
+|`-g`|Option| Git is installed automatically and a .gitignore file is also generated on the root of work directory|
+|`-c`|Option|A React component is generated in the current directory `(*.js|*.jsx)`|
+| `-i` | Option | A `.gitignore` file will be generated in the current directory |
+|`-v`|Option|View the installed version|
+|`-help`|Option|View the help information|
+
+## Table of contents (version 1)
 * [What's new](#whats-new)
 * [Features](#features)
 * [Screenshot](#screenshot)
