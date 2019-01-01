@@ -5,7 +5,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 - [x] Restructure code.
 - [ ] Remove Babel 6 template.
 - [x] New argument to generate a React component file (*.js | *.jsx) via command.
-- [x] New argument to generate a React-Redux component file (*.js | *.jsx) via command.
+- [ ] New argument to generate a React-Redux component file (*.js | *.jsx) via command.
 - [x] New argument to run `git init` automatic while generate the template.
 
 Installation: `$ npm i -g code-template-generator@alpha`
