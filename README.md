@@ -14,7 +14,7 @@ Installation: `$ npm i -g code-template-generator@alpha`
 `$ generate [option] <project-name>[<component-name>]`
 
 | Argument | Used with | Description |
-|---|:---:|---|
+|:---:|:---:|---|
 | `<project-name>` | - |  Generate a new project by the selected code template |
 |`-g`|`<project-name>`| Git is installed automatically (`git init`) and a `.gitignore` file is also created on the root of work directory while a new project is generated|
 |`-c`|`<component-name>`|It will be generate a component in the current directory `(*.js|*.jsx)` and you decide its name|
