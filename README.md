@@ -11,16 +11,16 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 Installation: `$ npm i -g code-template-generator@alpha`
 
 #### Using for version 2
-`$ generate [option] <name>`
+`$ generate [option] <project-name>[<component-name>]`
 
-| Argument | Requirement | Description |
-|---|---|---|
-| `<name>` | Required |  It is a `<project-name>` or a `<component-name>` that will be generated |
-|`-g`|Option| Git is installed automatically and a .gitignore file is also generated on the root of work directory|
-|`-c`|Option|A React component is generated in the current directory `(*.js|*.jsx)`|
-| `-i` | Option | A `.gitignore` file will be generated in the current directory |
-|`-v`|Option|View the installed version|
-|`-help`|Option|View the help information|
+| Argument | Used with | Description |
+|---|:---:|---|
+| `<project-name>` | - |  Generate a new project by the selected code template |
+|`-g`|`<project-name>`| Git is installed automatically (`git init`) and a `.gitignore` file is also created on the root of work directory while a new project is generated|
+|`-c`|`<component-name>`|It will be generate a component in the current directory `(*.js|*.jsx)` and you decide its name|
+| `-i` |-| A `.gitignore` file will be generated in the current directory |
+|`-v`|-|View the installed version|
+|`-help`|-|View the help information|
 
 Example:
 ````
