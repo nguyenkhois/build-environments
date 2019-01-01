@@ -10,7 +10,7 @@ You can download [code-template-generator](https://www.npmjs.com/package/code-te
 
 Installation: `$ npm i -g code-template-generator@alpha`
 
-### Using for version 2
+#### Using for version 2
 `$ generate [option] <name>`
 
 | Argument | Requirement | Description |
