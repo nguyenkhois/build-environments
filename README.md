@@ -22,6 +22,17 @@ Installation: `$ npm i -g code-template-generator@alpha`
 |`-v`|Option|View the installed version|
 |`-help`|Option|View the help information|
 
+Example:
+````
+$ generate new-project
+$ generate -g other-project
+$ generate -i
+$ generate -c ListComponent.js
+$ generate -c OtherComponent.jsx
+$ generate -v
+$ generate -help
+````
+
 ## Table of contents (version 1)
 * [What's new](#whats-new)
 * [Features](#features)
