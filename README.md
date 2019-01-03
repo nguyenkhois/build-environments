@@ -35,7 +35,7 @@ Breaking changes:
 |:---:|:---:|---|
 | `<project-name>` | - |  Generate a new project by the selected code template (withou Git support) |
 |`-g`|`<project-name>`| Git is installed automatically (`git init`) and a `.gitignore` file is also created on the root of work directory while a new project is generated|
-|`-c`|`<component-name>`|It will be generate a component in the current directory `(*.js|*.jsx)` and you decide its name|
+|`-c`|`<component-name>`|It will be generate a component in the current directory `(*.js, *.jsx)` and you decide its name|
 | `-i` |-| A `.gitignore` file will be generated in the current directory |
 |`-v`|-|View the installed version|
 |`-help`|-|View the help information|
