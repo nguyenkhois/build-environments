@@ -2,20 +2,38 @@
 You can download [code-template-generator](https://www.npmjs.com/package/code-template-generator) that is a part of this project on npmjs.com.
 
 ## For the next generation (version 2) [![Download on npm](https://img.shields.io/badge/npm-v2.0.0.alpha-blue.svg)](https://www.npmjs.com/package/code-template-generator/v/alpha)
-- [x] Restructure code.
-- [ ] Remove Babel 6 template.
-- [x] New argument to generate a React component file (*.js | *.jsx) via command.
-- [ ] New argument to generate a React-Redux component file (*.js | *.jsx) via command.
-- [x] New argument to run `git init` automatic while generate the template.
 
-Installation: `$ npm i -g code-template-generator@alpha`
+Restructure
+- [x] Code refactoring.
+- [ ] Remove Babel 6 template.
+
+Performance - UX:
+- [x] Improve performance
+- [x] Easier to install and use
+- [x] More consequence
+- [x] Friendly error message or help information
+
+New features:
+- [x] `-g`: New argument to run `git init` automatic while generate the template.
+- [x] `-c`: New argument to generate a React component file (*.js | *.jsx) in the current directory.
+- [ ] `-r`: New argument to generate a React-Redux component file (*.js | *.jsx) in the current directory.
+- [x] `-i`: New argument to generate a `.gitignore` file in the current directory.
+
+Breaking changes:
+- [x] The `git` support option.
+    * Version 1: `$ generate react-counter git`
+    * Version 2: `$ generate -g react-counter`
+- [x] Requirement for Nodejs is >= version 8.0.0
+
+#### Installation:
+`$ npm i -g code-template-generator@alpha`
 
 #### Using for version 2
 `$ generate [option] <project-name>[<component-name>]`
 
 | Argument | Used with | Description |
 |:---:|:---:|---|
-| `<project-name>` | - |  Generate a new project by the selected code template |
+| `<project-name>` | - |  Generate a new project by the selected code template (withou Git support) |
 |`-g`|`<project-name>`| Git is installed automatically (`git init`) and a `.gitignore` file is also created on the root of work directory while a new project is generated|
 |`-c`|`<component-name>`|It will be generate a component in the current directory `(*.js|*.jsx)` and you decide its name|
 | `-i` |-| A `.gitignore` file will be generated in the current directory |
