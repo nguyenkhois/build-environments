@@ -35,8 +35,10 @@ Breaking changes:
 |:---:|:---:|---|
 | `<project-name>` | - |  Generate a new project by the selected code template (without Git support) |
 |`-g`|`<project-name>`| Git is installed automatically (`git init`) and a `.gitignore` file is also created on the root of work directory while a new project is generated|
-|`-c`|`<component-name>`|It will be generate a React component `(*.js or *.jsx)` in the current directory and you decide its name|
-|`-r`|`<component-name>`|It will be generate a React-Redux component `(*.js or *.jsx)` in the current directory and you decide its name|
+|`-c`|`<component-name.js>`|It will be generate a React component `(*.js or *.jsx)` in the current directory and you decide its name|
+|`-r`|`<component-name.js>`|It will be generate a React-Redux component `(*.js or *.jsx)` in the current directory and you decide its name|
+|`-fc`|`<component-name>`|It will be generate a full React component (a directory with `*.js, *.css`) in the current directory and you decide its name|
+|`-fr`|`<component-name>`|It will be generate a full React-Redux component (a directory with `*.js, *.css`) in the current directory and you decide its name|
 | `-i` |-| A `.gitignore` file will be generated in the current directory |
 |`-v`|-|View the installed version|
 |`-help`|-|View the help information|
@@ -45,9 +47,11 @@ Example:
 ````
 $ generate new-project
 $ generate -g other-project
-$ generate -c ListComponent.js
-$ generate -c OtherComponent.jsx
-$ generate -r NewReactReduxComponent.js
+$ generate -c ProductList.js
+$ generate -c Payment.jsx
+$ generate -r Cart.js
+$ generate -fc Product
+$ generate -fr ShoppingCart
 $ generate -i
 $ generate -v
 $ generate -help
