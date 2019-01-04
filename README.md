@@ -45,9 +45,10 @@ Example:
 ````
 $ generate new-project
 $ generate -g other-project
-$ generate -i
 $ generate -c ListComponent.js
 $ generate -c OtherComponent.jsx
+$ generate -r NewReactReduxComponent.js
+$ generate -i
 $ generate -v
 $ generate -help
 ````
