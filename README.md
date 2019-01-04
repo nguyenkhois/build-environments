@@ -16,7 +16,7 @@ Performance - UX:
 New features:
 - [x] `-g`: New argument to run `git init` automatic while generate the template.
 - [x] `-c`: New argument to generate a React component file (*.js | *.jsx) in the current directory.
-- [ ] `-r`: New argument to generate a React-Redux component file (*.js | *.jsx) in the current directory.
+- [x] `-r`: New argument to generate a React-Redux component file (*.js | *.jsx) in the current directory.
 - [x] `-i`: New argument to generate a `.gitignore` file in the current directory.
 
 Breaking changes:
@@ -33,9 +33,10 @@ Breaking changes:
 
 | Argument | Used with | Description |
 |:---:|:---:|---|
-| `<project-name>` | - |  Generate a new project by the selected code template (withou Git support) |
+| `<project-name>` | - |  Generate a new project by the selected code template (without Git support) |
 |`-g`|`<project-name>`| Git is installed automatically (`git init`) and a `.gitignore` file is also created on the root of work directory while a new project is generated|
-|`-c`|`<component-name>`|It will be generate a component in the current directory `(js, jsx)` and you decide its name|
+|`-c`|`<component-name>`|It will be generate a React component `(*.js or *.jsx)` in the current directory and you decide its name|
+|`-r`|`<component-name>`|It will be generate a React-Redux component `(*.js or *.jsx)` in the current directory and you decide its name|
 | `-i` |-| A `.gitignore` file will be generated in the current directory |
 |`-v`|-|View the installed version|
 |`-help`|-|View the help information|
