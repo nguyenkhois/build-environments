@@ -17,6 +17,8 @@ New features:
 - [x] `-g`: New argument to run `git init` automatic while generate the template.
 - [x] `-c`: New argument to generate a React component file (*.js | *.jsx) in the current directory.
 - [x] `-r`: New argument to generate a React-Redux component file (*.js | *.jsx) in the current directory.
+- [x] `-fc`: New argument to generate a full React component that is a directory with `*.js, *.css`.
+- [x] `-fr`: New argument to generate a full React-Redux component that is a directory with `*.js, *.css`.
 - [x] `-i`: New argument to generate a `.gitignore` file in the current directory.
 
 Breaking changes:
