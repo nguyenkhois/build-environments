@@ -9,6 +9,8 @@ More information:
     * View information [here](CTG2.md).
     * Download on npmjs.com [here](https://www.npmjs.com/package/code-template-generator/v/alpha).
 
+> __2019-01-06__: The latest alpha version 2.0.0-alpha.1.2.10 is now on npmjs.com. The next step is the beta version before it become the release version that is comming soon.
+
 ## Table of contents
 * [Detail information for these project templates](#detail-information)
 * [Work directory](#work-directory)
