@@ -1,4 +1,4 @@
-## For the code-template-generator version 2 [![Download on npm](https://img.shields.io/badge/npm-v2.0.0.alpha-blue.svg)](https://www.npmjs.com/package/code-template-generator/v/alpha)
+## For the code-template-generator version 2 [![Download on npm](https://img.shields.io/badge/npm-v2.0.0.beta-blue.svg)](https://www.npmjs.com/package/code-template-generator/v/alpha)
 
 Restructure
 - [x] Code refactoring.
@@ -25,7 +25,7 @@ Breaking changes:
 - [x] Requirement for Nodejs is >= version 8.0.0
 
 #### Installation:
-`$ npm i -g code-template-generator@alpha`
+`$ npm i -g code-template-generator@next`
 
 #### Using for version 2
 `$ generate [option] <project-name>[<component-name>]`
