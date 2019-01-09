@@ -1,4 +1,4 @@
-## For the code-template-generator version 2 [![Download on npm](https://img.shields.io/badge/npm-v2.0.0.beta-blue.svg)](https://www.npmjs.com/package/code-template-generator/v/alpha)
+## For the code-template-generator version 2 [![Download on npm](https://img.shields.io/badge/npm-v2.0.0.beta-blue.svg)](https://www.npmjs.com/package/code-template-generator/v/next)
 
 Restructure
 - [x] Code refactoring.
