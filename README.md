@@ -5,11 +5,15 @@ More information:
 * code-template-generator version 1:
     * View information [here](CTG1.md).
     * Download on npmjs.com [here](https://www.npmjs.com/package/code-template-generator).
-* code-template-generator version 2 alpha:
+* code-template-generator version 2 beta:
     * View information [here](CTG2.md).
-    * Download on npmjs.com [here](https://www.npmjs.com/package/code-template-generator/v/alpha).
+    * Download on npmjs.com [here](https://www.npmjs.com/package/code-template-generator/v/next).
+    * Name changing:
+        * react-code-splitting -> react-advance
+        * react-babel-7 -> react-simplification
+        * react-typescript-3 -> react-typescript
 
-> __2019-01-09__: The new beta version 2.0.0-beta.1.0.0 is now on npmjs.com. The next step is the release version that is comming soon.
+> __2019-01-11__: The new beta version 2.0.0-beta.1.0.4 is now on npmjs.com. The next step is the release version that is comming soon.
 
 ## Table of contents
 * [Detail information for these project templates](#detail-information)
