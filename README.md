@@ -1,11 +1,11 @@
-# Build environments [![Download on npm](https://img.shields.io/badge/npm-v1.4.6-blue.svg)](https://www.npmjs.com/package/code-template-generator)
+# Build environments 
 This project is a part of [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
 More information:
-* code-template-generator version 1:
+* code-template-generator version 1 [![Download on npm](https://img.shields.io/badge/npm-v1.4.6-blue.svg)](https://www.npmjs.com/package/code-template-generator)
     * View information [here](CTG1.md).
     * Download on npmjs.com [here](https://www.npmjs.com/package/code-template-generator).
-* code-template-generator version 2 beta:
+* code-template-generator version 2 beta [![Download on npm](https://img.shields.io/badge/npm-v2.0.0beta-blue.svg)](https://www.npmjs.com/package/code-template-generator/v/next)
     * View information [here](CTG2.md).
     * Download on npmjs.com [here](https://www.npmjs.com/package/code-template-generator/v/next).
     * Name changing:
@@ -13,7 +13,7 @@ More information:
         * react-babel-7 -> react-simplification
         * react-typescript-3 -> react-typescript
 
-> __2019-01-11__: The new beta version 2.0.0-beta.1.0.4 is now on npmjs.com. The next step is the release version that is comming soon.
+> __2019-01-12__: The latest beta version 2.0.0-beta.1.0.7 is now on npmjs.com. The next step is the release version that is comming soon.
 
 ## Table of contents
 * [Detail information for these project templates](#detail-information)
@@ -21,12 +21,12 @@ More information:
 * [Tips and tricks](HOWTO.md)
     
 ## Detail information for these project templates
-||react-babel-6|react-babel-7|react-code-splitting|react-typescript-3
+||react-babel-6|react-simplification|react-advance|react-typescript|
 |---|:--:|:--:|:--:|:--:|
 |Programming language|JS|JS|JS|TS|
-|TypeScript|-|-|-|v3|
-|Babel core|v6|v7|v7|-|
-|Babel Loader|v7|v8|v8|-|
+|TypeScript version|-|-|-|3|
+|Babel core version|6|7|7|-|
+|Babel Loader version|7|8|8|-|
 |Config file|.babelrc|.babelrc|babel.config.js|tsconfig.json|
 |All needed dependencies are installed automatic|X|X|X|X|
 |Auto refresh whenever you make a change in your code|X|X|X|X|

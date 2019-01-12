@@ -2,7 +2,7 @@
 
 Restructure
 - [x] Code refactoring.
-- [ ] Remove Babel 6 template.
+- [x] Remove Babel 6 template.
 
 Performance - UX:
 - [x] Improve performance
