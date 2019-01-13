@@ -1,19 +1,12 @@
 # Build environments 
 This project is a part of [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
-More information:
-* code-template-generator version 1 [![Download on npm](https://img.shields.io/badge/npm-v1.4.6-blue.svg)](https://www.npmjs.com/package/code-template-generator)
-    * View information [here](CTG1.md).
-    * Download on npmjs.com [here](https://www.npmjs.com/package/code-template-generator).
-* code-template-generator version 2 beta [![Download on npm](https://img.shields.io/badge/npm-v2.0.0beta-blue.svg)](https://www.npmjs.com/package/code-template-generator/v/next)
-    * View information [here](CTG2.md).
-    * Download on npmjs.com [here](https://www.npmjs.com/package/code-template-generator/v/next).
-    * Name changing:
-        * react-code-splitting -> react-advance
-        * react-babel-7 -> react-simplification
-        * react-typescript-3 -> react-typescript
+Project template name changing:
+* react-code-splitting -> react-advance
+* react-babel-7 -> react-simplification
+* react-typescript-3 -> react-typescript
 
-> __2019-01-12__: The latest beta version 2.0.0-beta.1.0.7 is now on npmjs.com. The next step is the release version that is comming soon.
+> __2019-01-12__: The release version 2.0.0 is now on npmjs.com.
 
 ## Table of contents
 * [Detail information for these project templates](#detail-information)
