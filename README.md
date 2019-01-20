@@ -1,4 +1,4 @@
-# Build environments [![Download on npm](https://img.shields.io/badge/npm-v2.0.0-blue.svg)](https://www.npmjs.com/package/code-template-generator/)
+# Build environments [![Download on npm](https://img.shields.io/badge/npm-v2.0.2-blue.svg)](https://www.npmjs.com/package/code-template-generator/)
 This project is a part of [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
 __The next tasks:__
@@ -32,6 +32,7 @@ __Project template name changing:__
 |Code splitting|-|-|X|-|
 |Support async/ await|-|-|X|-|
 |Hot Module Replacement (HMR) enabled for CSS|-|-|X|-|
+|Client performance optimization|-|-|X|-|
 
 TIP! You should be carefully before you want update these packages which founded in package.json to newer versions.
 
