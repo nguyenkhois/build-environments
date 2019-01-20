@@ -27,7 +27,6 @@ __Project template name changing:__
 |CSS, JS files injected automatic into the HTML template file `index.html`|X|X|X|X|
 |Anti-caching - Distribution directory `./dist` is deleted and then created automatic during the app building|X|X|X|X|
 |Using `.browserslistrc`|X|X|X|X|
-|`.gitignore` handling|X|X|X|X|
 |Image handling|-|-|X|-|
 |Code splitting|-|-|X|-|
 |Support async/ await|-|-|X|-|
