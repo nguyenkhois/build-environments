@@ -1,7 +1,8 @@
 # Build environments [![Download on npm](https://img.shields.io/badge/npm-v2.0.0-blue.svg)](https://www.npmjs.com/package/code-template-generator/)
 This project is a part of [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
-> __2019-01-12__: The code-template-generator release version 2.0.0 is now on npmjs.com.
+The next tasks:
+- [ ] Webpack 5
 
 Project template name changing:
 * react-code-splitting -> react-advance
