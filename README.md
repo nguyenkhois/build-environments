@@ -28,6 +28,7 @@ __Project template name changing:__
 |Distribution directory `./dist` is deleted and then created automatic during the app building|X|X|X|X|
 |Using `.browserslistrc`|X|X|X|X|
 |`.gitignore` handling|X|X|X|X|
+|Anti-caching|X|X|X|X|
 |Image handling|-|-|X|-|
 |Code splitting|-|-|X|-|
 |Support async/ await|-|-|X|-|
