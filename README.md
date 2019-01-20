@@ -1,10 +1,10 @@
 # Build environments [![Download on npm](https://img.shields.io/badge/npm-v2.0.0-blue.svg)](https://www.npmjs.com/package/code-template-generator/)
 This project is a part of [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
-The next tasks:
+__The next tasks:__
 - [ ] Webpack 5
 
-Project template name changing:
+__Project template name changing:__
 * react-code-splitting -> react-advance
 * react-babel-7 -> react-simplification
 * react-typescript-3 -> react-typescript
