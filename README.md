@@ -2,6 +2,7 @@
 This project is a part of [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
 __The next tasks:__
+- [ ] The simple Express server template
 - [ ] Webpack 5
 
 __Project template name changing:__
