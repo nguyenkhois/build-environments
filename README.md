@@ -1,8 +1,8 @@
-# Build environments [![Download on npm](https://img.shields.io/badge/npm-v2.0.3-blue.svg)](https://www.npmjs.com/package/code-template-generator/)
+# Build environments [![Download on npm](https://img.shields.io/badge/npm-v2.1.2-blue.svg)](https://www.npmjs.com/package/code-template-generator/)
 This project is a part of [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
 __The next tasks:__
-- [ ] The simple Express server template
+- [x] The simple Express server template
 - [ ] Webpack 5
 
 __Project template name changing:__
