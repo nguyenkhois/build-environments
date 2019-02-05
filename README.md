@@ -15,23 +15,23 @@ __Project template name changing:__
 * [Tips and tricks](HOWTO.md)
     
 ## Detail information for these project templates
-||react-babel-6|react-simplification|react-advance|react-typescript|
-|---|:--:|:--:|:--:|:--:|
-|Programming language|JS|JS|JS|TS|
-|TypeScript version|-|-|-|3|
-|Babel core version|6|7|7|-|
-|Babel Loader version|7|8|8|-|
-|Config file|.babelrc|.babelrc|babel.config.js|tsconfig.json|
-|All needed dependencies are installed automatic|X|X|X|X|
-|Auto refresh whenever you make a change in your code|X|X|X|X|
-|CSS, JS files injected automatic into the HTML template file `index.html`|X|X|X|X|
-|Anti-caching - Distribution directory `./dist` is deleted and then created automatic during the app building|X|X|X|X|
-|Using `.browserslistrc`|X|X|X|X|
-|Image handling|-|-|X|-|
-|Code splitting|-|-|X|-|
-|Support async/ await|-|-|X|-|
-|Hot Module Replacement (HMR) enabled for CSS|-|-|X|-|
-|Client performance optimization|-|-|X|-|
+||react-simplification|react-advance|react-typescript|
+|---|:--:|:--:|:--:|
+|Programming language|JS|JS|TS|
+|TypeScript version|-|-|3|
+|Babel core version|7|7|-|
+|Babel Loader version|8|8|-|
+|Config file|.babelrc|babel.config.js|tsconfig.json|
+|All needed dependencies are installed automatic|X|X|X|
+|Auto refresh whenever you make a change in your code|X|X|X|
+|CSS, JS files injected automatic into the HTML template file `index.html`|X|X|X|
+|Anti-caching - Distribution directory `./dist` is deleted and then created automatic during the app building|X|X|X|
+|Using `.browserslistrc`|X|X|X|
+|Image handling|-|X|-|
+|Code splitting|-|X|-|
+|Support async/ await|-|X|-|
+|Hot Module Replacement (HMR) enabled for CSS|-|X|-|
+|Client performance optimization|-|X|-|
 
 TIP! You should be carefully before you want update these packages which founded in package.json to newer versions.
 
