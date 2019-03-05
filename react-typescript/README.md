@@ -9,7 +9,7 @@ Main packages:
 * [Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)
 
 Other packages:
-* [Clean for WebPack](https://github.com/johnagan/clean-webpack-plugin)
+* [Clean plugin for Webpack](https://github.com/johnagan/clean-webpack-plugin)
 * [HTML Webpack Plugin](https://github.com/jantimon/html-webpack-plugin)
 * [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)
 * [CSS Loader](https://github.com/webpack-contrib/css-loader)
