@@ -16,22 +16,22 @@ Other packages:
 * [Style Loader](https://github.com/webpack-contrib/style-loader)
 
 ## Features
-* Your source code are here `./src`:
-   * HTML template `./src/index.html`
-   * Styles in file `./src/styles.css`
-   * Entry point `./src/index.js`
+* Your source code are here `/src`:
+   * HTML template `/src/index.html`
+   * Styles in file `/src/styles.css`
+   * Entry point `/src/index.js`
 * Auto refresh whenever you make a change in your code.
-* Your code compiled into directory `./dist` with three separate file extensions `*.html, *.css, *.js`.
-* Directory `./dist` is deleted and then created automatic every time you run the command `npm run build`.
+* Your code are compiled into the directory `/dist` with three separate file extensions `*.html, *.css, *.js`.
+* Directory `/dist` is deleted and then created automatic whenever you run the command `npm run build`.
 
 Tested on:
 * Windows 10 (version 1809)
 * MacOS High Sierra (version 10.13)
-* Debian 9
+* Ubuntu (version 18.04 LTS)
 
 ## Using
-* Run the command `npm i` to install all needed dependencies.
+* Run the command `npm install` to install all needed dependencies.
 * Other commands:
-    * `npm run start` - to start Webpack Dev Server
-    * `npm run build` - to compile your app with production mode in Webpack into folder `./dist`
-* Local web server started at `htpp://localhost:9000`
+    * `npm run start` - Starts Webpack Dev Server by the development mode.
+    * `npm run build` - Bundles your app into the folder `/dist` by the production mode.
+* Local web server is started at `htpp://localhost:9000`

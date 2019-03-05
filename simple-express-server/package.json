@@ -4,7 +4,6 @@
   "description": "The simple Express server",
   "main": "index.js",
   "scripts": {
-    "test": "Hello",
     "start": "node index.js"
   },
   "keywords": [

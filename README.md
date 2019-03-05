@@ -4,7 +4,7 @@ This project is a part of [code-template-generator](https://www.npmjs.com/packag
 __The next tasks:__
 - [ ] Using Webpack 5
 
-__Project template name changing:__
+__Project template name's changes :__
 * react-code-splitting -> react-advance
 * react-babel-7 -> react-simplification
 * react-typescript-3 -> react-typescript
@@ -14,7 +14,7 @@ __Project template name changing:__
 * [Work directory](#work-directory)
 * [Tips and tricks](HOWTO.md)
     
-## Detail information for these project templates
+## Detail information for the project templates
 ||react-simplification|react-advance|react-typescript|
 |---|:--:|:--:|:--:|
 |Programming language|JS|JS|TS|
@@ -33,17 +33,17 @@ __Project template name changing:__
 |Hot Module Replacement (HMR) enabled for CSS|-|X|-|
 |Client performance optimization|-|X|-|
 
-TIP! You should be carefully before you want update these packages which founded in package.json to newer versions.
+TIP! You should be carefully before you want update the dependencies that are founded in package.json to newer versions.
 
 ## Work directory
 ````
 /
-|--dist
-|--src
-|   |--images
-|   |--index.html
-|   |--index.js
-|   |--...
+|--/dist
+|--/src
+|    |--/images
+|    |--index.html
+|    |--index.js
+|    |--...
 |--package.json
 |--...
 ````
