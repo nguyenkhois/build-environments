@@ -4,11 +4,6 @@ This project is a part of [code-template-generator](https://www.npmjs.com/packag
 __The next tasks:__
 - [ ] Using Webpack 5
 
-__Project template name's changes :__
-* react-code-splitting -> react-advance
-* react-babel-7 -> react-simplification
-* react-typescript-3 -> react-typescript
-
 ## Table of contents
 * [Detail information for these project templates](#detail-information)
 * [Work directory](#work-directory)
@@ -21,11 +16,11 @@ __Project template name's changes :__
 |TypeScript version|-|-|3|
 |Babel core version|7|7|-|
 |Babel Loader version|8|8|-|
-|Config file|.babelrc|babel.config.js|tsconfig.json|
+|Babel config file|.babelrc|babel.config.js|tsconfig.json|
 |All needed dependencies are installed automatic|X|X|X|
 |Auto refresh whenever you make a change in your code|X|X|X|
 |CSS, JS files injected automatic into the HTML template file `index.html`|X|X|X|
-|Anti-caching - Distribution directory `./dist` is deleted and then created automatic during the app building|X|X|X|
+|Anti-caching - Distribution directory `/dist` is deleted and then created automatic during the app building|X|X|X|
 |Using `.browserslistrc`|X|X|X|
 |Image handling|-|X|-|
 |Code splitting|-|X|-|
@@ -49,8 +44,8 @@ TIP! You should be carefully before you want update the dependencies that are fo
 ````
 Your application is within the `/src` directory:
 * `images` directory is using to store all images are used in your application.
-* `index.html` is the main HTML template.
-* `index.js` is the main entry point for your code.
+* `index.html` file is the main HTML template.
+* `index.js` file is the main entry point for your application.
 
-You don't need to care about the `/dist` directory (distribution/ publish). It is deleted and then created automatic during the application building when you run the command `npm start` or `npm run build`.
+You don't need to care about the `/dist` directory (distribution/ publish). It is deleted and then created automatic during the application building when you run these commands `npm start` or `npm run build`.
 

@@ -24,7 +24,7 @@ Other packages:
 |Source code|`/src`|
 |HTML template|`/src/index.html`|
 |Styles|`/src/styles.css`|
-|Entrypoint|`/src/index.js`|
+|Entry point|`/src/index.js`|
 |Images|`/src/images`|
 |Webpack Dev Server custom config|`/webpack.custom.js`|
 
