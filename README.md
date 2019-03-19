@@ -17,16 +17,16 @@ __The next tasks:__
 |Babel core version|7|7|-|
 |Babel Loader version|8|8|-|
 |Babel config file|.babelrc|babel.config.js|tsconfig.json|
-|All needed dependencies are installed automatic|X|X|X|
-|Auto refresh whenever you make a change in your code|X|X|X|
-|CSS, JS files injected automatic into the HTML template file `index.html`|X|X|X|
-|Anti-caching - Distribution directory `/dist` is deleted and then created automatic during the app building|X|X|X|
-|Using `.browserslistrc`|X|X|X|
-|Image handling|-|X|-|
-|Code splitting|-|X|-|
-|Support async/ await|-|X|-|
-|Hot Module Replacement (HMR) enabled for CSS|-|X|-|
-|Client performance optimization|-|X|-|
+|All needed dependencies are installed automatic|✓|✓|✓|
+|Auto refresh whenever you make a change in your code|✓|✓|✓|
+|CSS, JS files injected automatic into the HTML template file `index.html`|✓|✓|✓|
+|Anti-caching - Distribution directory `/dist` is deleted and then created automatic during the app building|✓|✓|✓|
+|Using `.browserslistrc`|✓|✓|✓|
+|Image handling|-|✓|-|
+|Code splitting|-|✓|-|
+|Support async/ await|-|✓|-|
+|Hot Module Replacement (HMR) enabled for CSS|-|✓|-|
+|Client performance optimization|-|✓|-|
 
 TIP! You should be carefully before you want update the dependencies that are founded in package.json to newer versions.
 
