@@ -18,12 +18,7 @@ module.exports = {
             {
                 test: /\.tsx?$/,
                 loader: "awesome-typescript-loader"
-            }/* ,
-            {
-                enforce: "pre",
-                test: /\.js$/,
-                loader: "source-map-loader"
-            } */
+            }
         ]
     },
     resolve: {
@@ -39,9 +34,5 @@ module.exports = {
         new CopyWebpackPlugin([
                 {from:'src/images',to:'images'}
         ])
-    ]/* ,
-    externals: {
-        "react": "React",
-        "react-dom": "ReactDOM"
-    } */
+    ]
 };
