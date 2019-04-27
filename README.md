@@ -2,6 +2,7 @@
 This project is a part of [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
 __The next tasks:__
+- [x] Upgrade the `react-typescript` template
 - [ ] Using Webpack 5
 
 ## Table of contents
@@ -9,24 +10,24 @@ __The next tasks:__
 * [Work directory](#work-directory)
 * [Tips and tricks](HOWTO.md)
     
-## Detail information for the project templates
+## Detail information for the main project templates
 ||react-simplification|react-advance|react-typescript|
 |---|:--:|:--:|:--:|
 |Programming language|JS|JS|TS|
 |TypeScript version|-|-|3|
 |Babel core version|7|7|-|
 |Babel Loader version|8|8|-|
-|Babel config file|.babelrc|babel.config.js|tsconfig.json|
+|Config file|.babelrc|babel.config.js|tsconfig.json|
 |All needed dependencies are installed automatic|✓|✓|✓|
 |Auto refresh whenever you make a change in your code|✓|✓|✓|
 |CSS, JS files injected automatic into the HTML template file `index.html`|✓|✓|✓|
 |Anti-caching - Distribution directory `/dist` is deleted and then created automatic during the app building|✓|✓|✓|
 |Using `.browserslistrc`|✓|✓|✓|
-|Image handling|-|✓|-|
-|Code splitting|-|✓|-|
-|Support async/ await|-|✓|-|
-|Hot Module Replacement (HMR) enabled for CSS|-|✓|-|
-|Client performance optimization|-|✓|-|
+|Image handling|-|✓|✓|
+|Code splitting|-|✓|✓|
+|Support async/ await|-|✓|✓|
+|Hot Module Replacement (HMR) enabled for CSS|-|✓|✓|
+|Client performance optimization|-|✓|✓|
 
 TIP! You should be carefully before you want update the dependencies that are founded in package.json to newer versions.
 
