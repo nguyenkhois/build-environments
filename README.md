@@ -3,6 +3,7 @@ This project is a part of [code-template-generator](https://www.npmjs.com/packag
 
 __The next tasks:__
 - [x] Upgrade the `react-typescript` template
+- [x] Minification for production
 - [ ] Using Webpack 5
 
 ## Table of contents
@@ -28,7 +29,7 @@ __The next tasks:__
 |Support async/ await|-|✓|✓|
 |Hot Module Replacement (HMR) enabled for CSS|-|✓|✓|
 |Client performance optimization|-|✓|✓|
-|Minification|-|✓|✓|
+|Minification for production|-|✓|✓|
 
 TIP! You should be carefully before you want update the dependencies that are founded in package.json to newer versions.
 
