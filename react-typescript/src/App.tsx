@@ -1,5 +1,5 @@
 import React from 'react';
-import Hello from './Hello';
+import Hello from './components/Hello';
 
 // 'HelloProps' describes the shape of props.
 // State is never set so we use the '{}' type.
