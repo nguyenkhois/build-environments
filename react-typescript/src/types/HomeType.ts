@@ -1,8 +1,8 @@
-type HelloProps = {
+type HomeProps = {
     compiler: string;
     framework: string;
 };
 
 export {
-    HelloProps
+    HomeProps
 }

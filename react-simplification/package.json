@@ -1,7 +1,7 @@
 {
   "name": "react-simplification",
-  "version": "1.0.0",
-  "description": "The simple React build environment",
+  "version": "2.0.0",
+  "description": "The simple React project template",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",

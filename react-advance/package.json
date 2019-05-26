@@ -1,7 +1,7 @@
 {
   "name": "react-advance",
-  "version": "1.0.0",
-  "description": "The React build environment",
+  "version": "2.0.0",
+  "description": "The advanced React project template",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
