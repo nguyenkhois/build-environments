@@ -29,7 +29,12 @@ __The next tasks:__
 |Support async/ await|-|✓|✓|
 |Hot Module Replacement (HMR) enabled for CSS|-|✓|✓|
 |Client performance optimization|-|✓|✓|
-|Minification for production|-|✓|✓|
+|Minification for production (Code)|✓ (*)|✓ (**)|✓ (**)|
+|Minification for production (CSS)|-|✓|✓|
+
+(*) Using Webpack
+
+(**) Using terser-webpack-plugin
 
 TIP! You should be carefully before you want update the dependencies that are founded in package.json to newer versions.
 
