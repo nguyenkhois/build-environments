@@ -8,6 +8,7 @@
 * [How can I passed the CORS?](#5-how-can-i-passed-the-cors)
 * [How can I know about supported web browser?](#6-how-can-i-know-about-supported-web-browser)
 * [How can I use code splitting in React?](#7-how-can-i-use-code-splitting-in-react)
+* [How can I do when an error happened during develop server starting up?](#8-how-can-i-do-when-an-error-happened-during-develop-server-starting-up)
 
 #### 1. How can I check for outdated, incorrect, and unused dependencies?
 
@@ -105,3 +106,10 @@ You may want to view about [Browserslist here](https://github.com/browserslist/b
 You may want to view these things:
 * [React guide](https://reactjs.org/docs/code-splitting.html).
 * The simple example [here](https://github.com/nguyenkhois/react-code-splitting-example).
+
+#### 8. How can I do when an error happened during develop server starting up?
+* `...Error: EPERM: operation not permitted, lstat...`
+   * It relates to Administrator permission on Windows 10 when you run Node.js application.
+* Solution:
+   * `Ctrl-C` to halt the local develop server.
+   * Run it again by `npm start`.
