@@ -38,6 +38,9 @@ __The next tasks:__
 
 TIP! You should be carefully before you want update the dependencies that are founded in package.json to newer versions.
 
+## Other project templates
+* The template `react-hooks` is based on the template `react-advance`. The difference is only using [React Hooks](https://reactjs.org/docs/hooks-intro.html).
+
 ## Work directory
 ````
 /
