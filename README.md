@@ -1,9 +1,10 @@
 # Build environments [![code-template-generator](https://img.shields.io/npm/v/code-template-generator.svg?style=flat)](https://www.npmjs.com/package/code-template-generator/)
-This project is a part of [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
+The project is a part of the Node.js application [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
 __The next tasks:__
 - [x] Upgrade the `react-typescript` template
 - [x] Minification for production
+- [x] Add a new project template for using React Hooks
 - [ ] Using Webpack 5
 
 ## Table of contents
@@ -39,7 +40,7 @@ __The next tasks:__
 TIP! You should be carefully before you want update the dependencies that are founded in package.json to newer versions.
 
 ## Other project templates
-* The template `react-hooks` is based on the template `react-advance`. The difference is only using [React Hooks](https://reactjs.org/docs/hooks-intro.html).
+* The template `react-hooks` is based on the current template `react-advance`. The difference is only using [React Hooks](https://reactjs.org/docs/hooks-intro.html).
 
 ## Work directory
 ````
