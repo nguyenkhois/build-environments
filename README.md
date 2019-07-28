@@ -5,6 +5,7 @@ __The next tasks:__
 - [x] Upgrade the `react-typescript` template
 - [x] Minification for production
 - [x] Add a new project template for using React Hooks
+- [x] Using clean-webpack-plugin version 3
 - [ ] Using Webpack 5
 
 ## Table of contents
@@ -30,14 +31,14 @@ __The next tasks:__
 |Support async/ await|-|✓|✓|
 |Hot Module Replacement (HMR) enabled for CSS|-|✓|✓|
 |Client performance optimization|-|✓|✓|
-|Minification for production (Code)|✓ (*)|✓ (**)|✓ (**)|
-|Minification for production (CSS)|-|✓|✓|
+|CSS minification for production|-|✓|✓|
+|JS minification for production|✓ (*)|✓ (**)|✓ (**)|
 
 (*) Using Webpack
 
 (**) Using terser-webpack-plugin
 
-TIP! You should be carefully before you want update the dependencies that are founded in package.json to newer versions.
+__BE WARE__! You should be check about compatibility before you update the dependencies that are founded in package.json to newer versions.
 
 ## Other project templates
 * The template `react-hooks` is based on the current template `react-advance`. The difference is only using [React Hooks](https://reactjs.org/docs/hooks-intro.html).
@@ -59,5 +60,5 @@ Your application is within the `/src` directory:
 * `index.html` file is the main HTML template.
 * `index.js` file is the main entry point for your application.
 
-You don't need to care about the `/dist` directory (distribution/ publish). It is deleted and then created automatic during the application building when you run these commands `npm start` or `npm run build`.
+You don't need to care about the `/dist` directory (distribution directory). It is deleted and then created automatic during the application building when you run the command `npm run build`.
 
