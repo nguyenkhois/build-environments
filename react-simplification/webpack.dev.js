@@ -7,9 +7,9 @@ module.exports = merge(common, {
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: path.resolve(__dirname, distDir), // the root for the server
-        watchContentBase: true, // so we reload if other stuff like CSS changes
-        port: serverPort, // it'll now be at http://localhost:9000
+        contentBase: path.resolve(__dirname, distDir), // Root for the local server
+        watchContentBase: true,
+        port: serverPort,
         watchOptions: {
             ignored: /node_modules/
         },

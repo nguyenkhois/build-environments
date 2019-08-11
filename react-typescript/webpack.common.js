@@ -8,7 +8,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { entryPoints, distDir, htmlTemplate } = require('./webpack.custom'); // Using your own configs
 
 module.exports = {
-    entry: entryPoints,// which file to begin with, 
+    entry: entryPoints,// which file(s) to begin with, 
     output: {
         path: path.resolve(__dirname, distDir), // what folder to put bundle in
         filename: '[name].[hash].js' // what name to use for bundle

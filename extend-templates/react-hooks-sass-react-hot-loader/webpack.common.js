@@ -3,6 +3,8 @@ const webpack = require('webpack');
 const WebpackNotifierPlugin = require("webpack-notifier");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const WriteFilePlugin = require('write-file-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { entryPoints, distDir, htmlTemplate } = require('./webpack.custom'); // Using your own configs
 
 module.exports = {
@@ -31,7 +33,13 @@ module.exports = {
         new HtmlWebpackPlugin({ template: htmlTemplate }),
         new CleanWebpackPlugin({
             verbose: true,
-            cleanOnceBeforeBuildPatterns: [] // Disable cleaning during development
-        })
+            cleanOnceBeforeBuildPatterns: ['**/*', '!images'] // No remove "images" for a faster development
+        }),
+        new WriteFilePlugin({
+            test: /\.(png|jpg|gif|svg)$/i
+        }),
+        new CopyWebpackPlugin([
+            { from: 'src/images', to: 'images' }
+        ])
     ]
 };

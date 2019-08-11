@@ -15,16 +15,21 @@ module.exports = merge(common, {
             ignored: /node_modules/
         },
         hot: true,
-        historyApiFallback: false
+        historyApiFallback: true
     },
     module: {
         rules: [
             {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
+                test: /\.(css|scss)$/,
+                use: ['style-loader', 'css-loader', 'sass-loader'],
                 exclude: /node_modules/
             }
         ]
+    },
+    resolve: {
+        alias: {
+            'react-dom': '@hot-loader/react-dom'
+        }
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin()
