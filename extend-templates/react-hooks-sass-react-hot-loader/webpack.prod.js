@@ -16,7 +16,7 @@ module.exports = merge(common, {
                     if (chunk.name === 'vendor') {
                         return false;
                     }
-    
+
                     return true;
                 },
                 terserOptions: {

@@ -10,7 +10,7 @@ const { entryPoints, distDir, htmlTemplate } = require('./webpack.custom'); // U
 module.exports = {
     entry: entryPoints,// which file(s) to begin with, 
     output: {
-        path: path.resolve(__dirname, distDir), // what folder to put bundle in
+        path: path.join(__dirname, distDir), // what folder to put bundle in
         filename: '[name].[hash].js' // what name to use for bundle
     },
     module: {
@@ -18,7 +18,7 @@ module.exports = {
             {
                 test: /\.tsx?$/,
                 include: [
-                    path.resolve(__dirname, "src")
+                    path.join(__dirname, "src")
                 ],
                 loader: "awesome-typescript-loader"
             }

@@ -5,9 +5,9 @@ const { distDir, serverPort } = require('./webpack.custom');
 
 module.exports = merge(common, {
     mode: 'development',
-    devtool: 'inline-source-map',
+    devtool: 'eval',
     devServer: {
-        contentBase: path.resolve(__dirname, distDir), // Root for the local server
+        contentBase: path.join(__dirname, distDir), // Root for the local server
         watchContentBase: true,
         port: serverPort,
         watchOptions: {

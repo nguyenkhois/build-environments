@@ -8,4 +8,4 @@ module.exports = {
     host: 'localhost',
     serverPort: 9000, // Local Webpack Dev Server port (main port)
     browserSyncPort: 3030 // BrowserSync port (Using cross browser testing)
-}
+};
