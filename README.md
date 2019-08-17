@@ -2,10 +2,8 @@
 The project is a part of the Node.js application [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
 __The next tasks:__
-- [x] Upgrade the `react-typescript` template
-- [x] Minification for production
-- [x] Add a new project template for using React Hooks
-- [x] Using clean-webpack-plugin version 3
+- [x] Create extend project templates for other reasons.
+- [ ] Create a project template with Gulp, BrowserSync, Browserify that is using for front-end developers when coding with plain JS (ES5, ES6) or jQuery and back-end like PHP (Press F5 is always a boring job :-P).
 - [ ] Using Webpack 5
 
 ## Table of contents
@@ -41,7 +39,7 @@ __The next tasks:__
 __BE WARE__! You should be check about compatibility before you update the dependencies that are founded in package.json to newer versions.
 
 ## Other project templates
-* The template `react-hooks` is based on the current template `react-advance`. The difference is only using [React Hooks](https://reactjs.org/docs/hooks-intro.html).
+* The template `react-hooks` and `react-sass` are based on the current template `react-advance`. The difference is only using [React Hooks](https://reactjs.org/docs/hooks-intro.html).
 
 ## Work directory
 ````
