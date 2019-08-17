@@ -1,5 +1,5 @@
 # The advance React Hooks project template
-The project template support also HMR ([Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/)) for both JavaScript and SCSS.
+The project template is using React hooks, React Router, SASS, Babel, BrowserSync, ESLint,... and it support also HMR ([Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/)) for both JavaScript and SCSS.
 
 ## Main features
 * HMR ([Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/)) is activated for __both__ JS and SCSS that's why the page is not refresh whenever you make a change in your code.
@@ -7,10 +7,10 @@ The project template support also HMR ([Hot Module Replacement](https://webpack.
 * Directory `/dist` is deleted and then created automatic whenever you run the command `npm run build`.
 * CSS (that is compiled automatic from SCSS) and JS files are injected automatic into the HTML template file `index.html`.
 * Code splitting - Many JS entry points are supported and your code are compiled into the directory `/dist` with the three separate file extensions `*.html, *.css, *.js`.
-* Image handling - Auto copy only the directory `/src/images` into `/dist` whenever you build your code or during the development.
+* Image handling - Automatic copying the directory `/src/images` into `/dist` whenever you build your code or during the development.
 * You can use `async`/ `await` for fetching data from API.
 
-View more about the features on [GitHub](https://github.com/nguyenkhois/build-environments).
+View more about the features on [here](https://github.com/nguyenkhois/build-environments).
 
 ## Main dependencies
 Main packages:
