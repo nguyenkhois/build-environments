@@ -13,7 +13,7 @@ __The next tasks:__
 * [Tips and tricks](HOWTO.md)
     
 ## Detail information for the main project templates
-||react-hooks|react-sass|react-typescript|
+||react-hooks|react-sass|react-hooks-typescript|
 |---|:--:|:--:|:--:|
 |Programming language|JS|JS|TS|
 |TypeScript version|-|-|3|
