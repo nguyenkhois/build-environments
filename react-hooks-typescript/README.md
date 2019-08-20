@@ -22,10 +22,8 @@ Other packages:
 ||Location|
 |---|---|
 |Source code|`/src`|
-|Components|`/src/components`|
 |Images|`/src/images`|
 |Styles|`/src/styles`|
-|TypeScript's types or interfaces|`/src/types`|
 |HTML template|`/src/index.html`|
 |Entry point|`/src/index.tsx`|
 |Webpack Dev Server custom config|`/webpack.custom.js`|
