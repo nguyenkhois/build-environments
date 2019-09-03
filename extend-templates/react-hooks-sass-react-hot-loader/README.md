@@ -1,5 +1,5 @@
 # The advance React Hooks project template
-The project template is using React hooks, React Router, SASS, Babel, BrowserSync, ESLint,... and it support also HMR ([Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/)) for both JavaScript and SCSS.
+The project template supports also HMR ([Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/)) for both JavaScript and SCSS.
 
 ## Main features
 * HMR ([Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/)) is activated for __both__ JS and SCSS that's why the page is not refresh whenever you make a change in your code.
@@ -14,13 +14,13 @@ View more about the features on [here](https://github.com/nguyenkhois/build-envi
 
 ## Main dependencies
 Main packages:
-* [React](https://reactjs.org/)
+* [React Hooks](https://reactjs.org/)
 * [React Router](https://github.com/ReactTraining/react-router)
 * [SASS](https://sass-lang.com/)
-* [Babel](https://babeljs.io/docs/en) ([Babel 7 released](https://babeljs.io/blog/2018/08/27/7.0.0) and [removing Babel's stage presets](https://babeljs.io/blog/2018/07/27/removing-babels-stage-presets))
+* [Babel](https://babeljs.io/docs/en)
+* [BrowserSync](https://www.browsersync.io/)
 * [Webpack](https://webpack.js.org/concepts/)
 * [Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)
-* [BrowserSync](https://www.browsersync.io/)
 
 Linting
 * [ESLint](https://eslint.org/)
@@ -37,11 +37,12 @@ Other packages:
 * [Sass Loader](https://github.com/webpack-contrib/sass-loader)
 * [Terser Plugin](https://github.com/webpack-contrib/terser-webpack-plugin)
 * [Optimize CSS Assets Plugin](https://github.com/NMFR/optimize-css-assets-webpack-plugin)
-* ... many more in `package.json`.
+
+... and many more in `package.json`.
 
 
 ## Working directory
-||Location|
+|Description|Location|
 |---|---|
 |Source code|`/src`|
 |Components|`/src/components`|
@@ -57,8 +58,8 @@ Tested on:
 * Ubuntu version 18.04 LTS
 
 ## Using
-* Run the command `npm install` to install all needed dependencies.
-* Other commands:
+* The commands:
+    * `npm install` - Installs all needed dependencies.
     * `npm run start` - Starts Webpack Dev Server for development.
     * `npm run bs` - Starts Webpack Dev Server in development mode with BrowserSync plugin for cross browser testing.
     * `npm run build` - Bundles your app into the directory `/dist` for production.
