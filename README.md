@@ -2,8 +2,6 @@
 The project is a part of the Node.js application [code-template-generator](https://www.npmjs.com/package/code-template-generator) on npmjs.com.
 
 __The next tasks:__
-- [x] Create extend project templates for other reasons.
-- [x] Using React Hooks for the project templates (both JavaScript and TypeScript).
 - [ ] Create a project template with Gulp, BrowserSync, Browserify that is using for front-end developers when coding with plain JS (ES5, ES6) or jQuery and back-end like PHP (Press F5 is always a boring job :-P).
 - [ ] Using Webpack 5
 
