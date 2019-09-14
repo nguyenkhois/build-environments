@@ -16,11 +16,19 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.tsx?$/,
+                test: /\.ts(x?)$/,
+                loader: "ts-loader",
                 include: [
                     path.join(__dirname, "src")
-                ],
-                loader: "awesome-typescript-loader"
+                ]
+            },
+            {
+                test: /\.js$/,
+                use: ["source-map-loader"],
+                enforce: "pre",
+                include: [
+                    path.join(__dirname, "src")
+                ]
             }
         ]
     },
