@@ -17,8 +17,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^16.9.10",
-    "@types/react-dom": "^16.9.2",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
@@ -35,7 +35,7 @@
     "terser-webpack-plugin": "^2.2.1",
     "typescript": "^3.6.4",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9",
+    "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.2.1",
     "webpack-notifier": "^1.8.0",
